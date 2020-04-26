@@ -1,0 +1,2 @@
+drone_training:geometry2/geometry2:geometry2/test_tf2:geometry2/tf2:geometry2/tf2_bullet:geometry2/tf2_eigen:geometry2/tf2_geometry_msgs:geometry2/tf2_kdl:geometry2/tf2_msgs:geometry2/tf2_py:geometry2/tf2_ros:geometry2/tf2_sensor_msgs:geometry2/tf2_tools:hector_uav_msgs:position_command
+-DCATKIN_DEVEL_PREFIX=/home/liu/drone_training_ws/devel -DCMAKE_INSTALL_PREFIX=/home/liu/drone_training_ws/install -G Unix Makefiles

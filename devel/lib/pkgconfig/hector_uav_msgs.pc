@@ -1,0 +1,8 @@
+prefix=/home/liu/drone_training_ws/devel
+
+Name: hector_uav_msgs
+Description: Description of hector_uav_msgs
+Version: 0.3.5
+Cflags: -I/home/liu/drone_training_ws/devel/include -I/home/liu/drone_training_ws/src/hector_uav_msgs/include
+Libs: -L/home/liu/drone_training_ws/devel/lib 
+Requires: message_runtime std_msgs

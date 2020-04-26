@@ -1,0 +1,8 @@
+prefix=/home/liu/drone_training_ws/devel
+
+Name: tf2_py
+Description: Description of tf2_py
+Version: 0.6.5
+Cflags: 
+Libs: -L/home/liu/drone_training_ws/devel/lib 
+Requires: rospy tf2

@@ -1,0 +1,8 @@
+prefix=/home/liu/drone_training_ws/devel
+
+Name: drone_training
+Description: Description of drone_training
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/liu/drone_training_ws/devel/lib 
+Requires: 

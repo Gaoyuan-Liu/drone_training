@@ -1,0 +1,8 @@
+prefix=/home/liu/drone_training_ws/devel
+
+Name: tf2_bullet
+Description: Description of tf2_bullet
+Version: 0.6.5
+Cflags: -I/home/liu/drone_training_ws/src/geometry2/tf2_bullet/include -I/usr/include/bullet
+Libs: -L/home/liu/drone_training_ws/devel/lib 
+Requires: 
