@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for _tf2_msgs_generate_messages_check_deps_LookupTransformAction.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/progress.make
 
 geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tf2_msgs /home/liu/drone_training_ws/devel/share/tf2_msgs/msg/LookupTransformAction.msg actionlib_msgs/GoalStatus:tf2_msgs/LookupTransformFeedback:actionlib_msgs/GoalID:geometry_msgs/Transform:tf2_msgs/LookupTransformGoal:tf2_msgs/LookupTransformActionGoal:tf2_msgs/LookupTransformActionFeedback:tf2_msgs/LookupTransformResult:tf2_msgs/LookupTransformActionResult:std_msgs/Header:geometry_msgs/Quaternion:tf2_msgs/TF2Error:geometry_msgs/TransformStamped:geometry_msgs/Vector3
+	cd /home/liu/drone_training/build/geometry2/tf2_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tf2_msgs /home/liu/drone_training/devel/share/tf2_msgs/msg/LookupTransformAction.msg actionlib_msgs/GoalID:tf2_msgs/LookupTransformResult:tf2_msgs/LookupTransformActionGoal:actionlib_msgs/GoalStatus:tf2_msgs/LookupTransformActionResult:geometry_msgs/TransformStamped:tf2_msgs/LookupTransformFeedback:geometry_msgs/Vector3:tf2_msgs/TF2Error:geometry_msgs/Transform:tf2_msgs/LookupTransformGoal:std_msgs/Header:tf2_msgs/LookupTransformActionFeedback:geometry_msgs/Quaternion
 
 _tf2_msgs_generate_messages_check_deps_LookupTransformAction: geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction
 _tf2_msgs_generate_messages_check_deps_LookupTransformAction: geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/build.make
@@ -67,10 +67,10 @@ geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTrans
 .PHONY : geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/build
 
 geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/clean:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/geometry2/tf2_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/cmake_clean.cmake
 .PHONY : geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/clean
 
 geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/geometry2/tf2_msgs /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/geometry2/tf2_msgs /home/liu/drone_training_ws/build/geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/geometry2/tf2_msgs /home/liu/drone_training/build /home/liu/drone_training/build/geometry2/tf2_msgs /home/liu/drone_training/build/geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_LookupTransformAction.dir/depend
 

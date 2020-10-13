@@ -43,458 +43,458 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for hector_uav_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/progress.make
 
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js
 
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Altimeter.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_uav_msgs/Altimeter.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Altimeter.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /home/liu/drone_training/src/hector_uav_msgs/msg/RC.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from hector_uav_msgs/RC.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/RC.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/AttitudeCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_uav_msgs/AttitudeCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/AttitudeCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/YawrateCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from hector_uav_msgs/YawrateCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/YawrateCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Compass.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_uav_msgs/Compass.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Compass.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from hector_uav_msgs/PoseResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ControllerState.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_uav_msgs/ControllerState.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ControllerState.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from hector_uav_msgs/LandingAction.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/HeadingCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_uav_msgs/HeadingCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/HeadingCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/AttitudeCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from hector_uav_msgs/AttitudeCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/AttitudeCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/HeightCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hector_uav_msgs/HeightCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/HeightCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from hector_uav_msgs/LandingActionGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from hector_uav_msgs/MotorCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /home/liu/drone_training/src/hector_uav_msgs/msg/MotorPWM.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from hector_uav_msgs/MotorPWM.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/MotorPWM.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorPWM.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from hector_uav_msgs/MotorPWM.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorPWM.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from hector_uav_msgs/TakeoffFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from hector_uav_msgs/MotorStatus.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/MotorStatus.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /home/liu/drone_training/src/hector_uav_msgs/msg/Supply.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from hector_uav_msgs/Supply.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/Supply.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/PositionXYCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from hector_uav_msgs/PositionXYCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/PositionXYCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from hector_uav_msgs/TakeoffActionFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawImu.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from hector_uav_msgs/RawImu.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawImu.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from hector_uav_msgs/TakeoffActionResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawMagnetic.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from hector_uav_msgs/RawMagnetic.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawMagnetic.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from hector_uav_msgs/PoseActionResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawRC.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from hector_uav_msgs/RawRC.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RawRC.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from hector_uav_msgs/PoseGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RC.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from hector_uav_msgs/RC.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RC.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from hector_uav_msgs/TakeoffActionGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RuddersCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from hector_uav_msgs/RuddersCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/RuddersCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/PositionXYCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from hector_uav_msgs/PositionXYCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/PositionXYCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ServoCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from hector_uav_msgs/ServoCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ServoCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from hector_uav_msgs/LandingActionFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Supply.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from hector_uav_msgs/Supply.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Supply.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/VelocityZCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from hector_uav_msgs/VelocityZCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/VelocityZCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ThrustCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from hector_uav_msgs/ThrustCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/ThrustCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/HeadingCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from hector_uav_msgs/HeadingCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/HeadingCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/VelocityXYCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from hector_uav_msgs/VelocityXYCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/VelocityXYCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /home/liu/drone_training/src/hector_uav_msgs/msg/Altimeter.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from hector_uav_msgs/Altimeter.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/Altimeter.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/VelocityZCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from hector_uav_msgs/VelocityZCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/VelocityZCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /home/liu/drone_training/src/hector_uav_msgs/msg/RawImu.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from hector_uav_msgs/RawImu.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/RawImu.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /home/liu/drone_training_ws/src/hector_uav_msgs/msg/YawrateCommand.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from hector_uav_msgs/YawrateCommand.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/msg/YawrateCommand.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/ServoCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from hector_uav_msgs/ServoCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/ServoCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseAction.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from hector_uav_msgs/PoseAction.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseAction.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/HeightCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from hector_uav_msgs/HeightCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/HeightCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from hector_uav_msgs/PoseActionGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /home/liu/drone_training/src/hector_uav_msgs/msg/RawMagnetic.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from hector_uav_msgs/RawMagnetic.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/RawMagnetic.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from hector_uav_msgs/PoseActionResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from hector_uav_msgs/PoseActionGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from hector_uav_msgs/PoseActionFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from hector_uav_msgs/TakeoffGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from hector_uav_msgs/PoseGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /home/liu/drone_training/src/hector_uav_msgs/msg/Compass.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from hector_uav_msgs/Compass.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/Compass.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from hector_uav_msgs/PoseResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from hector_uav_msgs/PoseFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from hector_uav_msgs/PoseFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/ThrustCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from hector_uav_msgs/ThrustCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/ThrustCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingAction.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from hector_uav_msgs/LandingAction.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingAction.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/VelocityXYCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from hector_uav_msgs/VelocityXYCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/VelocityXYCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from hector_uav_msgs/LandingActionGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /home/liu/drone_training/src/hector_uav_msgs/msg/ControllerState.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from hector_uav_msgs/ControllerState.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/ControllerState.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from hector_uav_msgs/LandingActionResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /home/liu/drone_training/src/hector_uav_msgs/msg/MotorStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from hector_uav_msgs/MotorStatus.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/MotorStatus.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from hector_uav_msgs/LandingActionFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/MotorCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from hector_uav_msgs/MotorCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/MotorCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from hector_uav_msgs/LandingGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from hector_uav_msgs/LandingResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from hector_uav_msgs/LandingResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from hector_uav_msgs/LandingFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from hector_uav_msgs/LandingFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/LandingFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from hector_uav_msgs/TakeoffResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffAction.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from hector_uav_msgs/TakeoffAction.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffAction.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from hector_uav_msgs/LandingActionResult.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from hector_uav_msgs/TakeoffActionGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from hector_uav_msgs/PoseActionFeedback.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from hector_uav_msgs/TakeoffActionResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from hector_uav_msgs/TakeoffAction.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from hector_uav_msgs/TakeoffActionFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /home/liu/drone_training/src/hector_uav_msgs/msg/RuddersCommand.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from hector_uav_msgs/RuddersCommand.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/RuddersCommand.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from hector_uav_msgs/TakeoffGoal.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from hector_uav_msgs/LandingGoal.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from hector_uav_msgs/TakeoffResult.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffResult.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /home/liu/drone_training/src/hector_uav_msgs/msg/RawRC.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from hector_uav_msgs/RawRC.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/msg/RawRC.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from hector_uav_msgs/TakeoffFeedback.msg"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from hector_uav_msgs/PoseAction.msg"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg
 
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js: /home/liu/drone_training_ws/src/hector_uav_msgs/srv/EnableMotors.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Javascript code from hector_uav_msgs/EnableMotors.srv"
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training_ws/src/hector_uav_msgs/srv/EnableMotors.srv -Ihector_uav_msgs:/home/liu/drone_training_ws/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/srv
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js: /home/liu/drone_training/src/hector_uav_msgs/srv/EnableMotors.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Javascript code from hector_uav_msgs/EnableMotors.srv"
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/drone_training/src/hector_uav_msgs/srv/EnableMotors.srv -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/srv
 
 hector_uav_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js
-hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training_ws/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RC.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/YawrateCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingAction.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/AttitudeCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorPWM.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Supply.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffActionGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PositionXYCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityZCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeadingCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Altimeter.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawImu.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ServoCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/HeightCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawMagnetic.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/Compass.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ThrustCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/VelocityXYCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/ControllerState.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorStatus.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/MotorCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingActionResult.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseActionFeedback.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/TakeoffAction.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RuddersCommand.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/LandingGoal.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/RawRC.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/msg/PoseAction.js
+hector_uav_msgs_generate_messages_nodejs: /home/liu/drone_training/devel/share/gennodejs/ros/hector_uav_msgs/srv/EnableMotors.js
 hector_uav_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : hector_uav_msgs_generate_messages_nodejs
@@ -505,10 +505,10 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build: h
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build
 
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/clean
 
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/hector_uav_msgs /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/hector_uav_msgs /home/liu/drone_training_ws/build/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/hector_uav_msgs /home/liu/drone_training/build /home/liu/drone_training/build/hector_uav_msgs /home/liu/drone_training/build/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/depend
 

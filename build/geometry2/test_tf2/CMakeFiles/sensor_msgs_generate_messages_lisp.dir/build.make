@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for sensor_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build: sens
 .PHONY : geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 
 geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	cd /home/liu/drone_training_ws/build/geometry2/test_tf2 && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/geometry2/test_tf2 /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/geometry2/test_tf2 /home/liu/drone_training_ws/build/geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/geometry2/test_tf2 /home/liu/drone_training/build /home/liu/drone_training/build/geometry2/test_tf2 /home/liu/drone_training/build/geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : geometry2/test_tf2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 

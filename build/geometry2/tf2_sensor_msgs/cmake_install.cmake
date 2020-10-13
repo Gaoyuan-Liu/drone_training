@@ -1,8 +1,8 @@
-# Install script for directory: /home/liu/drone_training_ws/src/geometry2/tf2_sensor_msgs
+# Install script for directory: /home/liu/drone_training/src/geometry2/tf2_sensor_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/liu/drone_training_ws/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/liu/drone_training/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_sensor_msgs/cmake" TYPE FILE FILES
-    "/home/liu/drone_training_ws/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgsConfig.cmake"
-    "/home/liu/drone_training_ws/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgsConfig-version.cmake"
+    "/home/liu/drone_training/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgsConfig.cmake"
+    "/home/liu/drone_training/build/geometry2/tf2_sensor_msgs/catkin_generated/installspace/tf2_sensor_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_sensor_msgs" TYPE FILE FILES "/home/liu/drone_training_ws/src/geometry2/tf2_sensor_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_sensor_msgs" TYPE FILE FILES "/home/liu/drone_training/src/geometry2/tf2_sensor_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_sensor_msgs" TYPE DIRECTORY FILES "/home/liu/drone_training_ws/src/geometry2/tf2_sensor_msgs/include/tf2_sensor_msgs/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_sensor_msgs" TYPE DIRECTORY FILES "/home/liu/drone_training/src/geometry2/tf2_sensor_msgs/include/tf2_sensor_msgs/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_sensor_msgs/catkin_generated/safe_execute_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_sensor_msgs/catkin_generated/safe_execute_install.cmake")
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_tf2_sensor_msgs_cpp.dir/test/test_tf2_sensor_msgs.cpp.o"
-  "/home/liu/drone_training_ws/devel/lib/tf2_sensor_msgs/test_tf2_sensor_msgs_cpp.pdb"
-  "/home/liu/drone_training_ws/devel/lib/tf2_sensor_msgs/test_tf2_sensor_msgs_cpp"
+  "/home/liu/drone_training/devel/lib/tf2_sensor_msgs/test_tf2_sensor_msgs_cpp.pdb"
+  "/home/liu/drone_training/devel/lib/tf2_sensor_msgs/test_tf2_sensor_msgs_cpp"
 )
 
 # Per-language clean rules from dependency scanning.

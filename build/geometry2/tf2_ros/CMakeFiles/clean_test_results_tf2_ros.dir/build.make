@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for clean_test_results_tf2_ros.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/progress.make
 
 geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_ros && /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/liu/drone_training_ws/build/test_results/tf2_ros
+	cd /home/liu/drone_training/build/geometry2/tf2_ros && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/liu/drone_training/build/test_results/tf2_ros
 
 clean_test_results_tf2_ros: geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros
 clean_test_results_tf2_ros: geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/build.make
@@ -67,10 +67,10 @@ geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/build: clean_test_re
 .PHONY : geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/build
 
 geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/clean:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_ros && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_tf2_ros.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/geometry2/tf2_ros && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_tf2_ros.dir/cmake_clean.cmake
 .PHONY : geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/clean
 
 geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/geometry2/tf2_ros /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/geometry2/tf2_ros /home/liu/drone_training_ws/build/geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/geometry2/tf2_ros /home/liu/drone_training/build /home/liu/drone_training/build/geometry2/tf2_ros /home/liu/drone_training/build/geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : geometry2/tf2_ros/CMakeFiles/clean_test_results_tf2_ros.dir/depend
 

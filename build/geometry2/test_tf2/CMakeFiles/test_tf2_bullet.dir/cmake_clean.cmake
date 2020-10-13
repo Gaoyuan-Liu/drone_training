@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_tf2_bullet.dir/test/test_tf2_bullet.cpp.o"
-  "/home/liu/drone_training_ws/devel/lib/test_tf2/test_tf2_bullet.pdb"
-  "/home/liu/drone_training_ws/devel/lib/test_tf2/test_tf2_bullet"
+  "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_bullet.pdb"
+  "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_bullet"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,24 +1,24 @@
 
 "use strict";
 
-let TF2Error = require('./TF2Error.js');
 let TFMessage = require('./TFMessage.js');
-let LookupTransformAction = require('./LookupTransformAction.js');
+let TF2Error = require('./TF2Error.js');
+let LookupTransformFeedback = require('./LookupTransformFeedback.js');
 let LookupTransformResult = require('./LookupTransformResult.js');
 let LookupTransformActionResult = require('./LookupTransformActionResult.js');
-let LookupTransformFeedback = require('./LookupTransformFeedback.js');
 let LookupTransformActionFeedback = require('./LookupTransformActionFeedback.js');
-let LookupTransformGoal = require('./LookupTransformGoal.js');
+let LookupTransformAction = require('./LookupTransformAction.js');
 let LookupTransformActionGoal = require('./LookupTransformActionGoal.js');
+let LookupTransformGoal = require('./LookupTransformGoal.js');
 
 module.exports = {
-  TF2Error: TF2Error,
   TFMessage: TFMessage,
-  LookupTransformAction: LookupTransformAction,
+  TF2Error: TF2Error,
+  LookupTransformFeedback: LookupTransformFeedback,
   LookupTransformResult: LookupTransformResult,
   LookupTransformActionResult: LookupTransformActionResult,
-  LookupTransformFeedback: LookupTransformFeedback,
   LookupTransformActionFeedback: LookupTransformActionFeedback,
-  LookupTransformGoal: LookupTransformGoal,
+  LookupTransformAction: LookupTransformAction,
   LookupTransformActionGoal: LookupTransformActionGoal,
+  LookupTransformGoal: LookupTransformGoal,
 };

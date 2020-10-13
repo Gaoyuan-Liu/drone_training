@@ -43,6 +43,29 @@ struct TF2Error_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(NO_ERROR)
+  #undef NO_ERROR
+#endif
+#if defined(_WIN32) && defined(LOOKUP_ERROR)
+  #undef LOOKUP_ERROR
+#endif
+#if defined(_WIN32) && defined(CONNECTIVITY_ERROR)
+  #undef CONNECTIVITY_ERROR
+#endif
+#if defined(_WIN32) && defined(EXTRAPOLATION_ERROR)
+  #undef EXTRAPOLATION_ERROR
+#endif
+#if defined(_WIN32) && defined(INVALID_ARGUMENT_ERROR)
+  #undef INVALID_ARGUMENT_ERROR
+#endif
+#if defined(_WIN32) && defined(TIMEOUT_ERROR)
+  #undef TIMEOUT_ERROR
+#endif
+#if defined(_WIN32) && defined(TRANSFORM_ERROR)
+  #undef TRANSFORM_ERROR
+#endif
+
   enum {
     NO_ERROR = 0u,
     LOOKUP_ERROR = 1u,
@@ -89,6 +112,21 @@ ros::message_operations::Printer< ::tf2_msgs::TF2Error_<ContainerAllocator> >::s
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::tf2_msgs::TF2Error_<ContainerAllocator1> & lhs, const ::tf2_msgs::TF2Error_<ContainerAllocator2> & rhs)
+{
+  return lhs.error == rhs.error &&
+    lhs.error_string == rhs.error_string;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::tf2_msgs::TF2Error_<ContainerAllocator1> & lhs, const ::tf2_msgs::TF2Error_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace tf2_msgs
 
 namespace ros
@@ -98,23 +136,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsMessage': True, 'IsFixedSize': False, 'HasHeader': False}
-// {'tf2_msgs': ['/home/liu/drone_training_ws/src/geometry2/tf2_msgs/msg', '/home/liu/drone_training_ws/devel/share/tf2_msgs/msg'], 'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}
 
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
-
-
-
-
-template <class ContainerAllocator>
-struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> >
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
-struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
-  : TrueType
-  { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> >
@@ -124,6 +146,16 @@ struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
   : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> >
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
+  : TrueType
   { };
 
 template <class ContainerAllocator>

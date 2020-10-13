@@ -1,8 +1,8 @@
-prefix=/home/liu/drone_training_ws/install
+prefix=/home/liu/drone_training/install
 
 Name: tf2_eigen
 Description: Description of tf2_eigen
 Version: 0.6.5
-Cflags: -I/home/liu/drone_training_ws/install/include -I/usr/include/eigen3
-Libs: -L/home/liu/drone_training_ws/install/lib 
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
 Requires: 

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/liu/drone_training_ws/devel/setup.sh
+    local-name: /home/liu/drone_training/devel/setup.sh

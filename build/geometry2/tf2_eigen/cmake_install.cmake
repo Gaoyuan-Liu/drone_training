@@ -1,8 +1,8 @@
-# Install script for directory: /home/liu/drone_training_ws/src/geometry2/tf2_eigen
+# Install script for directory: /home/liu/drone_training/src/geometry2/tf2_eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/liu/drone_training_ws/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigen.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/liu/drone_training/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigen.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_eigen/cmake" TYPE FILE FILES
-    "/home/liu/drone_training_ws/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigenConfig.cmake"
-    "/home/liu/drone_training_ws/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigenConfig-version.cmake"
+    "/home/liu/drone_training/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigenConfig.cmake"
+    "/home/liu/drone_training/build/geometry2/tf2_eigen/catkin_generated/installspace/tf2_eigenConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_eigen" TYPE FILE FILES "/home/liu/drone_training_ws/src/geometry2/tf2_eigen/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tf2_eigen" TYPE FILE FILES "/home/liu/drone_training/src/geometry2/tf2_eigen/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_eigen" TYPE DIRECTORY FILES "/home/liu/drone_training_ws/src/geometry2/tf2_eigen/include/tf2_eigen/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tf2_eigen" TYPE DIRECTORY FILES "/home/liu/drone_training/src/geometry2/tf2_eigen/include/tf2_eigen/")
 endif()
 

@@ -91,6 +91,26 @@ ros::message_operations::Printer< ::tf2_msgs::LookupTransformGoal_<ContainerAllo
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::tf2_msgs::LookupTransformGoal_<ContainerAllocator1> & lhs, const ::tf2_msgs::LookupTransformGoal_<ContainerAllocator2> & rhs)
+{
+  return lhs.target_frame == rhs.target_frame &&
+    lhs.source_frame == rhs.source_frame &&
+    lhs.source_time == rhs.source_time &&
+    lhs.timeout == rhs.timeout &&
+    lhs.target_time == rhs.target_time &&
+    lhs.fixed_frame == rhs.fixed_frame &&
+    lhs.advanced == rhs.advanced;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::tf2_msgs::LookupTransformGoal_<ContainerAllocator1> & lhs, const ::tf2_msgs::LookupTransformGoal_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace tf2_msgs
 
 namespace ros
@@ -100,23 +120,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsMessage': True, 'IsFixedSize': False, 'HasHeader': False}
-// {'tf2_msgs': ['/home/liu/drone_training_ws/src/geometry2/tf2_msgs/msg', '/home/liu/drone_training_ws/devel/share/tf2_msgs/msg'], 'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}
 
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
-
-
-
-
-template <class ContainerAllocator>
-struct IsMessage< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> >
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
-struct IsMessage< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> const>
-  : TrueType
-  { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> >
@@ -126,6 +130,16 @@ struct IsFixedSize< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsFixedSize< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> const>
   : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> >
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::tf2_msgs::LookupTransformGoal_<ContainerAllocator> const>
+  : TrueType
   { };
 
 template <class ContainerAllocator>

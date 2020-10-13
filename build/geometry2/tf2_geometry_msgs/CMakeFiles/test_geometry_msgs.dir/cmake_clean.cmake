@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_geometry_msgs.dir/test/test_tf2_geometry_msgs.cpp.o"
-  "/home/liu/drone_training_ws/devel/lib/tf2_geometry_msgs/test_geometry_msgs.pdb"
-  "/home/liu/drone_training_ws/devel/lib/tf2_geometry_msgs/test_geometry_msgs"
+  "/home/liu/drone_training/devel/lib/tf2_geometry_msgs/test_geometry_msgs.pdb"
+  "/home/liu/drone_training/devel/lib/tf2_geometry_msgs/test_geometry_msgs"
 )
 
 # Per-language clean rules from dependency scanning.

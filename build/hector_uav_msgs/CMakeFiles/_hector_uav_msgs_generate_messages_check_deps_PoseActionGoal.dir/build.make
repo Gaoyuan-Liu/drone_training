@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/progress.make
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg actionlib_msgs/GoalID:hector_uav_msgs/PoseGoal:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Pose
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg actionlib_msgs/GoalID:hector_uav_msgs/PoseGoal:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Point
 
 _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal
 _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/build.make
@@ -67,10 +67,10 @@ hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAct
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/build
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/clean:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/cmake_clean.cmake
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/clean
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/hector_uav_msgs /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/hector_uav_msgs /home/liu/drone_training_ws/build/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/hector_uav_msgs /home/liu/drone_training/build /home/liu/drone_training/build/hector_uav_msgs /home/liu/drone_training/build/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/depend
 

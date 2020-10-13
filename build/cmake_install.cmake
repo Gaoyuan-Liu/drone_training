@@ -1,8 +1,8 @@
-# Install script for directory: /home/liu/drone_training_ws/src
+# Install script for directory: /home/liu/drone_training/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/liu/drone_training/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,103 +49,103 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/_setup_util.py")
+   "/home/liu/drone_training/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE PROGRAM FILES "/home/liu/drone_training_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE PROGRAM FILES "/home/liu/drone_training/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/env.sh")
+   "/home/liu/drone_training/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE PROGRAM FILES "/home/liu/drone_training_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE PROGRAM FILES "/home/liu/drone_training/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/setup.bash;/home/liu/drone_training_ws/install/local_setup.bash")
+   "/home/liu/drone_training/install/setup.bash;/home/liu/drone_training/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE FILE FILES
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE FILE FILES
+    "/home/liu/drone_training/build/catkin_generated/installspace/setup.bash"
+    "/home/liu/drone_training/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/setup.sh;/home/liu/drone_training_ws/install/local_setup.sh")
+   "/home/liu/drone_training/install/setup.sh;/home/liu/drone_training/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE FILE FILES
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE FILE FILES
+    "/home/liu/drone_training/build/catkin_generated/installspace/setup.sh"
+    "/home/liu/drone_training/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/setup.zsh;/home/liu/drone_training_ws/install/local_setup.zsh")
+   "/home/liu/drone_training/install/setup.zsh;/home/liu/drone_training/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE FILE FILES
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/liu/drone_training_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE FILE FILES
+    "/home/liu/drone_training/build/catkin_generated/installspace/setup.zsh"
+    "/home/liu/drone_training/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/drone_training_ws/install/.rosinstall")
+   "/home/liu/drone_training/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/drone_training_ws/install" TYPE FILE FILES "/home/liu/drone_training_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/liu/drone_training/install" TYPE FILE FILES "/home/liu/drone_training/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/liu/drone_training_ws/build/gtest/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/geometry2/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/hector_uav_msgs/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_msgs/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_bullet/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_eigen/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/drone_training/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/position_command/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_py/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_ros/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_geometry_msgs/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_kdl/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/test_tf2/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_sensor_msgs/cmake_install.cmake")
-  include("/home/liu/drone_training_ws/build/geometry2/tf2_tools/cmake_install.cmake")
+  include("/home/liu/drone_training/build/gtest/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/geometry2/cmake_install.cmake")
+  include("/home/liu/drone_training/build/hector_uav_msgs/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_msgs/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_bullet/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_eigen/cmake_install.cmake")
+  include("/home/liu/drone_training/build/drone_training/cmake_install.cmake")
+  include("/home/liu/drone_training/build/position_command/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_py/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_ros/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_geometry_msgs/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_kdl/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/test_tf2/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_sensor_msgs/cmake_install.cmake")
+  include("/home/liu/drone_training/build/geometry2/tf2_tools/cmake_install.cmake")
 
 endif()
 
@@ -157,5 +157,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liu/drone_training_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liu/drone_training/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

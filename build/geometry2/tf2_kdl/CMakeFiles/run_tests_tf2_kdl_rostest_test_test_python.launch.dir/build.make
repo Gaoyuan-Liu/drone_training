@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for run_tests_tf2_kdl_rostest_test_test_python.launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/progress.make
 
 geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_kdl && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training_ws/build/test_results/tf2_kdl/rostest-test_test_python.xml "/opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/liu/drone_training_ws/src/geometry2/tf2_kdl --package=tf2_kdl --results-filename test_test_python.xml --results-base-dir \"/home/liu/drone_training_ws/build/test_results\" /home/liu/drone_training_ws/src/geometry2/tf2_kdl/test/test_python.launch "
+	cd /home/liu/drone_training/build/geometry2/tf2_kdl && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/tf2_kdl/rostest-test_test_python.xml "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/liu/drone_training/src/geometry2/tf2_kdl --package=tf2_kdl --results-filename test_test_python.xml --results-base-dir \"/home/liu/drone_training/build/test_results\" /home/liu/drone_training/src/geometry2/tf2_kdl/test/test_python.launch "
 
 run_tests_tf2_kdl_rostest_test_test_python.launch: geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch
 run_tests_tf2_kdl_rostest_test_test_python.launch: geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/build.make
@@ -67,10 +67,10 @@ geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.d
 .PHONY : geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/build
 
 geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/clean:
-	cd /home/liu/drone_training_ws/build/geometry2/tf2_kdl && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/geometry2/tf2_kdl && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/cmake_clean.cmake
 .PHONY : geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/clean
 
 geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/geometry2/tf2_kdl /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/geometry2/tf2_kdl /home/liu/drone_training_ws/build/geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/geometry2/tf2_kdl /home/liu/drone_training/build /home/liu/drone_training/build/geometry2/tf2_kdl /home/liu/drone_training/build/geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : geometry2/tf2_kdl/CMakeFiles/run_tests_tf2_kdl_rostest_test_test_python.launch.dir/depend
 

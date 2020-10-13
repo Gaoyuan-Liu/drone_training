@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for run_tests_test_tf2_gtest_test_tf2_message_filter.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/progress.make
 
 geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter:
-	cd /home/liu/drone_training_ws/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training_ws/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml "/home/liu/drone_training_ws/devel/lib/test_tf2/test_tf2_message_filter --gtest_output=xml:/home/liu/drone_training_ws/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml"
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_message_filter --gtest_output=xml:/home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml"
 
 run_tests_test_tf2_gtest_test_tf2_message_filter: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter
 run_tests_test_tf2_gtest_test_tf2_message_filter: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/build.make
@@ -67,10 +67,10 @@ geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.d
 .PHONY : geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/build
 
 geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/clean:
-	cd /home/liu/drone_training_ws/build/geometry2/test_tf2 && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/cmake_clean.cmake
 .PHONY : geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/clean
 
 geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/geometry2/test_tf2 /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/geometry2/test_tf2 /home/liu/drone_training_ws/build/geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/geometry2/test_tf2 /home/liu/drone_training/build /home/liu/drone_training/build/geometry2/test_tf2 /home/liu/drone_training/build/geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/depend
 

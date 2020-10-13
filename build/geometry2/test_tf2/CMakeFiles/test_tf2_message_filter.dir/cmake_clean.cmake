@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_tf2_message_filter.dir/test/test_message_filter.cpp.o"
-  "/home/liu/drone_training_ws/devel/lib/test_tf2/test_tf2_message_filter.pdb"
-  "/home/liu/drone_training_ws/devel/lib/test_tf2/test_tf2_message_filter"
+  "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_message_filter.pdb"
+  "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_message_filter"
 )
 
 # Per-language clean rules from dependency scanning.

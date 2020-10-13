@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liu/drone_training_ws/src/geometry2/tf2/src/buffer_core.cpp" "/home/liu/drone_training_ws/build/geometry2/tf2/CMakeFiles/tf2.dir/src/buffer_core.cpp.o"
-  "/home/liu/drone_training_ws/src/geometry2/tf2/src/cache.cpp" "/home/liu/drone_training_ws/build/geometry2/tf2/CMakeFiles/tf2.dir/src/cache.cpp.o"
-  "/home/liu/drone_training_ws/src/geometry2/tf2/src/static_cache.cpp" "/home/liu/drone_training_ws/build/geometry2/tf2/CMakeFiles/tf2.dir/src/static_cache.cpp.o"
+  "/home/liu/drone_training/src/geometry2/tf2/src/buffer_core.cpp" "/home/liu/drone_training/build/geometry2/tf2/CMakeFiles/tf2.dir/src/buffer_core.cpp.o"
+  "/home/liu/drone_training/src/geometry2/tf2/src/cache.cpp" "/home/liu/drone_training/build/geometry2/tf2/CMakeFiles/tf2.dir/src/cache.cpp.o"
+  "/home/liu/drone_training/src/geometry2/tf2/src/static_cache.cpp" "/home/liu/drone_training/build/geometry2/tf2/CMakeFiles/tf2.dir/src/static_cache.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,12 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/liu/drone_training_ws/src/geometry2/tf2/src/bt"
-  "/home/liu/drone_training_ws/src/geometry2/tf2/include"
-  "/home/liu/drone_training_ws/devel/include"
-  "/home/liu/drone_training_ws/src/geometry2/tf2_msgs/include"
+  "/home/liu/drone_training/src/geometry2/tf2/src/bt"
+  "/home/liu/drone_training/src/geometry2/tf2/include"
+  "/home/liu/drone_training/devel/include"
+  "/home/liu/drone_training/src/geometry2/tf2_msgs/include"
   "/opt/ros/melodic/include"
-  "/usr/src/googletest/googletest/include"
   )
 
 # Targets to which this target links.

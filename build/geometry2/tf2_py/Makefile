@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training_ws/build/CMakeFiles /home/liu/drone_training_ws/build/geometry2/tf2_py/CMakeFiles/progress.marks
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training_ws/build/CMakeFiles 0
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training/build/CMakeFiles /home/liu/drone_training/build/geometry2/tf2_py/CMakeFiles/progress.marks
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/clean
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/preinstall
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/preinstall
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 geometry2/tf2_py/CMakeFiles/tf2_py.dir/rule:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/CMakeFiles/tf2_py.dir/rule
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/tf2_py/CMakeFiles/tf2_py.dir/rule
 .PHONY : geometry2/tf2_py/CMakeFiles/tf2_py.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ tf2_py: geometry2/tf2_py/CMakeFiles/tf2_py.dir/rule
 
 # fast build rule for target.
 tf2_py/fast:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/build
+	cd /home/liu/drone_training/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/build
 .PHONY : tf2_py/fast
 
 src/tf2_py.o: src/tf2_py.cpp.o
@@ -188,7 +188,7 @@ src/tf2_py.o: src/tf2_py.cpp.o
 
 # target to build an object file
 src/tf2_py.cpp.o:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.o
+	cd /home/liu/drone_training/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.o
 .PHONY : src/tf2_py.cpp.o
 
 src/tf2_py.i: src/tf2_py.cpp.i
@@ -197,7 +197,7 @@ src/tf2_py.i: src/tf2_py.cpp.i
 
 # target to preprocess a source file
 src/tf2_py.cpp.i:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.i
+	cd /home/liu/drone_training/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.i
 .PHONY : src/tf2_py.cpp.i
 
 src/tf2_py.s: src/tf2_py.cpp.s
@@ -206,7 +206,7 @@ src/tf2_py.s: src/tf2_py.cpp.s
 
 # target to generate assembly for a file
 src/tf2_py.cpp.s:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.s
+	cd /home/liu/drone_training/build && $(MAKE) -f geometry2/tf2_py/CMakeFiles/tf2_py.dir/build.make geometry2/tf2_py/CMakeFiles/tf2_py.dir/src/tf2_py.cpp.s
 .PHONY : src/tf2_py.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

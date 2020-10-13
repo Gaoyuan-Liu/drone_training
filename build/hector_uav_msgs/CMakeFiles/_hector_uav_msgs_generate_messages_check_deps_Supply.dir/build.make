@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for _hector_uav_msgs_generate_messages_check_deps_Supply.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
 include hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/progress.make
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training_ws/src/hector_uav_msgs/msg/Supply.msg std_msgs/Header
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/src/hector_uav_msgs/msg/Supply.msg std_msgs/Header
 
 _hector_uav_msgs_generate_messages_check_deps_Supply: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply
 _hector_uav_msgs_generate_messages_check_deps_Supply: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/build.make
@@ -67,10 +67,10 @@ hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/build
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/clean:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/cmake_clean.cmake
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/clean
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/hector_uav_msgs /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/hector_uav_msgs /home/liu/drone_training_ws/build/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/hector_uav_msgs /home/liu/drone_training/build /home/liu/drone_training/build/hector_uav_msgs /home/liu/drone_training/build/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training_ws/build/CMakeFiles /home/liu/drone_training_ws/build/geometry2/geometry2/CMakeFiles/progress.marks
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training_ws/build/CMakeFiles 0
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training/build/CMakeFiles /home/liu/drone_training/build/geometry2/geometry2/CMakeFiles/progress.marks
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liu/drone_training/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/clean
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/preinstall
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/preinstall
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ _catkin_empty_exported_target: geometry2/geometry2/CMakeFiles/_catkin_empty_expo
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/liu/drone_training_ws/build && $(MAKE) -f geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/build.make geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/liu/drone_training/build && $(MAKE) -f geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/build.make geometry2/geometry2/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

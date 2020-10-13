@@ -1,8 +1,8 @@
-prefix=/home/liu/drone_training_ws/devel
+prefix=/home/liu/drone_training/devel
 
 Name: position_command
 Description: Description of position_command
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/liu/drone_training_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 

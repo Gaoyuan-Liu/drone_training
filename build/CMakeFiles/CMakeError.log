@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/drone_training/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0271d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0271d.dir/build.make CMakeFiles/cmTC_0271d.dir/build
-make[1]: 进入目录“/home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_0271d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0271d.dir/CheckSymbolExists.c.o   -c /home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0271d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0271d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0271d.dir/CheckSymbolExists.c.o  -o cmTC_0271d 
-CMakeFiles/cmTC_0271d.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_a93fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a93fe.dir/build.make CMakeFiles/cmTC_a93fe.dir/build
+make[1]: 进入目录“/home/liu/drone_training/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a93fe.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a93fe.dir/CheckSymbolExists.c.o   -c /home/liu/drone_training/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a93fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a93fe.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a93fe.dir/CheckSymbolExists.c.o  -o cmTC_a93fe 
+CMakeFiles/cmTC_a93fe.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0271d.dir/build.make:97: recipe for target 'cmTC_0271d' failed
-make[1]: *** [cmTC_0271d] Error 1
-make[1]: 离开目录“/home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_0271d/fast' failed
-make: *** [cmTC_0271d/fast] Error 2
+CMakeFiles/cmTC_a93fe.dir/build.make:97: recipe for target 'cmTC_a93fe' failed
+make[1]: *** [cmTC_a93fe] Error 1
+make[1]: 离开目录“/home/liu/drone_training/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_a93fe/fast' failed
+make: *** [cmTC_a93fe/fast] Error 2
 
-File /home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/liu/drone_training/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/drone_training/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4a06a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4a06a.dir/build.make CMakeFiles/cmTC_4a06a.dir/build
-make[1]: 进入目录“/home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4a06a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4a06a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4a06a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a06a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4a06a.dir/CheckFunctionExists.c.o  -o cmTC_4a06a -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_748cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_748cc.dir/build.make CMakeFiles/cmTC_748cc.dir/build
+make[1]: 进入目录“/home/liu/drone_training/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_748cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_748cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_748cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_748cc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_748cc.dir/CheckFunctionExists.c.o  -o cmTC_748cc -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4a06a.dir/build.make:97: recipe for target 'cmTC_4a06a' failed
-make[1]: *** [cmTC_4a06a] Error 1
-make[1]: 离开目录“/home/liu/drone_training_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_4a06a/fast' failed
-make: *** [cmTC_4a06a/fast] Error 2
+CMakeFiles/cmTC_748cc.dir/build.make:97: recipe for target 'cmTC_748cc' failed
+make[1]: *** [cmTC_748cc] Error 1
+make[1]: 离开目录“/home/liu/drone_training/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_748cc/fast' failed
+make: *** [cmTC_748cc/fast] Error 2
 
 

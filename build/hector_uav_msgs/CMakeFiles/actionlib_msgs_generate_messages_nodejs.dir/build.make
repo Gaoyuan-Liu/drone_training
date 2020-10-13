@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/drone_training_ws/src
+CMAKE_SOURCE_DIR = /home/liu/drone_training/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/drone_training_ws/build
+CMAKE_BINARY_DIR = /home/liu/drone_training/build
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build: ac
 .PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 
 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/liu/drone_training_ws/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/liu/drone_training/build/hector_uav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/liu/drone_training_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training_ws/src /home/liu/drone_training_ws/src/hector_uav_msgs /home/liu/drone_training_ws/build /home/liu/drone_training_ws/build/hector_uav_msgs /home/liu/drone_training_ws/build/hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/drone_training/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/drone_training/src /home/liu/drone_training/src/hector_uav_msgs /home/liu/drone_training/build /home/liu/drone_training/build/hector_uav_msgs /home/liu/drone_training/build/hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

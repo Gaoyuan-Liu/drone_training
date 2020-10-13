@@ -61,6 +61,20 @@ ros::message_operations::Printer< ::hector_uav_msgs::EnableMotorsRequest_<Contai
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator2> & rhs)
+{
+  return lhs.enable == rhs.enable;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace hector_uav_msgs
 
 namespace ros
@@ -70,23 +84,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsMessage': True, 'IsFixedSize': True, 'HasHeader': False}
-// {'hector_uav_msgs': ['/home/liu/drone_training_ws/src/hector_uav_msgs/msg', '/home/liu/drone_training_ws/devel/share/hector_uav_msgs/msg'], 'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}
 
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
-
-
-
-
-template <class ContainerAllocator>
-struct IsMessage< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> >
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
-struct IsMessage< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> const>
-  : TrueType
-  { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> >
@@ -95,6 +93,16 @@ struct IsFixedSize< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> 
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> const>
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> >
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsMessage< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> const>
   : TrueType
   { };
 
@@ -138,7 +146,7 @@ struct Definition< ::hector_uav_msgs::EnableMotorsRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "bool enable\n"
+    return "bool enable # enable or disable motors\n"
 ;
   }
 
