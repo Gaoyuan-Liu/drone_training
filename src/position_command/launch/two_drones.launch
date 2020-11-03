@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- Launch the training system -->
+    <node pkg="position_command" name="gym_train" type="position_command_talker_for_two_drones.py" output="screen"/> 
+</launch>
