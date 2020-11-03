@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- Launch the training system -->
+    <node pkg="position_command" name="gym_train" type="velocity_command_talker.py" output="screen"/> 
+</launch>
