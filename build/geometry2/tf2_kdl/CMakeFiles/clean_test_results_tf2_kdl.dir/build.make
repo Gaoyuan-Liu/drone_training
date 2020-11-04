@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/tf2_kdl/CMakeFiles/clean_test_results_tf2_kdl.dir/progress.make
 
 geometry2/tf2_kdl/CMakeFiles/clean_test_results_tf2_kdl:
-	cd /home/liu/drone_training/build/geometry2/tf2_kdl && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/liu/drone_training/build/test_results/tf2_kdl
+	cd /home/liu/drone_training/build/geometry2/tf2_kdl && /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/liu/drone_training/build/test_results/tf2_kdl
 
 clean_test_results_tf2_kdl: geometry2/tf2_kdl/CMakeFiles/clean_test_results_tf2_kdl
 clean_test_results_tf2_kdl: geometry2/tf2_kdl/CMakeFiles/clean_test_results_tf2_kdl.dir/build.make

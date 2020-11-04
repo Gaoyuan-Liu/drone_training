@@ -139,16 +139,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> >
   : TrueType
   { };
@@ -156,6 +146,16 @@ struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::tf2_msgs::TF2Error_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

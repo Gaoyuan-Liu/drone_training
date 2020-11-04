@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/progress.make
 
 geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter:
-	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_message_filter --gtest_output=xml:/home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml"
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml "/home/liu/drone_training/devel/lib/test_tf2/test_tf2_message_filter --gtest_output=xml:/home/liu/drone_training/build/test_results/test_tf2/gtest-test_tf2_message_filter.xml"
 
 run_tests_test_tf2_gtest_test_tf2_message_filter: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter
 run_tests_test_tf2_gtest_test_tf2_message_filter: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_gtest_test_tf2_message_filter.dir/build.make

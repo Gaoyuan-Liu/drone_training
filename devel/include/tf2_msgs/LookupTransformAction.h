@@ -102,16 +102,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> >
   : TrueType
   { };
@@ -119,6 +109,16 @@ struct IsMessage< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::tf2_msgs::LookupTransformAction_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

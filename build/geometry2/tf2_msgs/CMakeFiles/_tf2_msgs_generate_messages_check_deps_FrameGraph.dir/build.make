@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_FrameGraph.dir/progress.make
 
 geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_FrameGraph:
-	cd /home/liu/drone_training/build/geometry2/tf2_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tf2_msgs /home/liu/drone_training/src/geometry2/tf2_msgs/srv/FrameGraph.srv 
+	cd /home/liu/drone_training/build/geometry2/tf2_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tf2_msgs /home/liu/drone_training/src/geometry2/tf2_msgs/srv/FrameGraph.srv 
 
 _tf2_msgs_generate_messages_check_deps_FrameGraph: geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_FrameGraph
 _tf2_msgs_generate_messages_check_deps_FrameGraph: geometry2/tf2_msgs/CMakeFiles/_tf2_msgs_generate_messages_check_deps_FrameGraph.dir/build.make

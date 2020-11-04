@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/tf2/CMakeFiles/run_tests_tf2_gtest_test_simple.dir/progress.make
 
 geometry2/tf2/CMakeFiles/run_tests_tf2_gtest_test_simple:
-	cd /home/liu/drone_training/build/geometry2/tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/tf2/gtest-test_simple.xml "/home/liu/drone_training/devel/lib/tf2/test_simple --gtest_output=xml:/home/liu/drone_training/build/test_results/tf2/gtest-test_simple.xml"
+	cd /home/liu/drone_training/build/geometry2/tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/tf2/gtest-test_simple.xml "/home/liu/drone_training/devel/lib/tf2/test_simple --gtest_output=xml:/home/liu/drone_training/build/test_results/tf2/gtest-test_simple.xml"
 
 run_tests_tf2_gtest_test_simple: geometry2/tf2/CMakeFiles/run_tests_tf2_gtest_test_simple
 run_tests_tf2_gtest_test_simple: geometry2/tf2/CMakeFiles/run_tests_tf2_gtest_test_simple.dir/build.make

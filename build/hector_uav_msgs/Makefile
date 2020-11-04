@@ -258,6 +258,51 @@ hector_uav_msgs_generate_messages_cpp/fast:
 .PHONY : hector_uav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+hector_uav_msgs_generate_messages_lisp: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : hector_uav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+hector_uav_msgs_generate_messages_lisp/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build
+.PHONY : hector_uav_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffResult
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffResult/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal/fast
+
+# Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingGoal.dir/rule:
 	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingGoal.dir/rule
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingGoal.dir/rule
@@ -273,19 +318,109 @@ _hector_uav_msgs_generate_messages_check_deps_LandingGoal/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingGoal/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_RawRC: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawRC
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_RawRC/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawRC/fast
+_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingAction
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingAction/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingAction/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseFeedback
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseFeedback/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseFeedback/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseResult
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseResult/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_EnableMotors: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_EnableMotors
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_EnableMotors/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_EnableMotors/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseGoal
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_PoseGoal/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseGoal/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_gennodejs.dir/rule:
@@ -318,139 +453,19 @@ _hector_uav_msgs_generate_messages_check_deps_PoseActionFeedback/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionFeedback/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
 
 # Convenience name for target.
-hector_uav_msgs_generate_messages_lisp: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_PoseActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
 
-.PHONY : hector_uav_msgs_generate_messages_lisp
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionResult
 
 # fast build rule for target.
-hector_uav_msgs_generate_messages_lisp/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build
-.PHONY : hector_uav_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffResult
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffResult/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_ThrustCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ThrustCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_ThrustCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ThrustCommand/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_ServoCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ServoCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_ServoCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ServoCommand/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_RuddersCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RuddersCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_RuddersCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RuddersCommand/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingFeedback
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingFeedback/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingFeedback/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_ControllerState: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ControllerState
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_ControllerState/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_ControllerState/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseFeedback
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseFeedback/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseFeedback.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseFeedback/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback/fast
+_hector_uav_msgs_generate_messages_check_deps_PoseActionResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionResult/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionGoal.dir/rule:
@@ -468,34 +483,19 @@ _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_YawrateCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_YawrateCommand
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_RawMagnetic: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawMagnetic
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_RawMagnetic/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawMagnetic/fast
+_hector_uav_msgs_generate_messages_check_deps_YawrateCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_YawrateCommand/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
@@ -543,21 +543,6 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal/fast
-
-# Convenience name for target.
 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
 	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
@@ -573,79 +558,109 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_YawrateCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_YawrateCommand
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_YawrateCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_YawrateCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_YawrateCommand/fast
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
+hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_MotorStatus: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
+actionlib_msgs_generate_messages_cpp: hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_MotorStatus
+.PHONY : actionlib_msgs_generate_messages_cpp
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_MotorStatus/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_MotorStatus/fast
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
 
 # Convenience name for target.
-hector_uav_msgs_generate_messages: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_PoseAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
 
-.PHONY : hector_uav_msgs_generate_messages
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseAction
 
 # fast build rule for target.
-hector_uav_msgs_generate_messages/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build
-.PHONY : hector_uav_msgs_generate_messages/fast
+_hector_uav_msgs_generate_messages_check_deps_PoseAction/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseAction/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-actionlib_msgs_generate_messages_eus: hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+geometry_msgs_generate_messages_py: hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
-.PHONY : actionlib_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_py
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
+geometry_msgs_generate_messages_py/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/rule
+hector_uav_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal
+.PHONY : hector_uav_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal/fast
+hector_uav_msgs_generate_messages_nodejs/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build
+.PHONY : hector_uav_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffGoal.dir/rule:
@@ -693,64 +708,19 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_ServoCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionResult
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ServoCommand
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingActionResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionResult/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_RC: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RC
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_RC/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_RC/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
+_hector_uav_msgs_generate_messages_check_deps_ServoCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ServoCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ServoCommand/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
@@ -828,19 +798,79 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_TakeoffAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseResult
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffAction
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseResult/fast
+_hector_uav_msgs_generate_messages_check_deps_TakeoffAction/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffAction/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_Compass: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_Compass
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_Compass/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_Compass/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_HeightCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeightCommand
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_HeightCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeightCommand/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingResult
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingResult/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_HeadingCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeadingCommand
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_HeadingCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeadingCommand/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorPWM.dir/rule:
@@ -858,19 +888,49 @@ _hector_uav_msgs_generate_messages_check_deps_MotorPWM/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_MotorPWM/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
+hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/rule
+hector_uav_msgs_generate_messages: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingAction
+.PHONY : hector_uav_msgs_generate_messages
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingAction/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingAction.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingAction/fast
+hector_uav_msgs_generate_messages/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages.dir/build
+.PHONY : hector_uav_msgs_generate_messages/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_eus: hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_eus
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_eus/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+.PHONY : actionlib_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_MotorStatus: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_MotorStatus
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_MotorStatus/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_MotorStatus.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_MotorStatus/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py.dir/rule:
@@ -918,6 +978,96 @@ _hector_uav_msgs_generate_messages_check_deps_PositionXYCommand/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_PositionXYCommand/fast
 
 # Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_RawMagnetic: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawMagnetic
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_RawMagnetic/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawMagnetic.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawMagnetic/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_RawRC: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawRC
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_RawRC/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawRC.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RawRC/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingFeedback
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_LandingFeedback/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingFeedback.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingFeedback/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_ControllerState: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ControllerState
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_ControllerState/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ControllerState.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ControllerState/fast
+
+# Convenience name for target.
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
+
+# Convenience name for target.
+_hector_uav_msgs_generate_messages_check_deps_RuddersCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/rule
+
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RuddersCommand
+
+# fast build rule for target.
+_hector_uav_msgs_generate_messages_check_deps_RuddersCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RuddersCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RuddersCommand/fast
+
+# Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/rule:
 	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/rule
 .PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Supply.dir/rule
@@ -933,139 +1083,79 @@ _hector_uav_msgs_generate_messages_check_deps_Supply/fast:
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_Supply/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
 
 # Convenience name for target.
-hector_uav_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_ThrustCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/rule
 
-.PHONY : hector_uav_msgs_generate_messages_nodejs
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ThrustCommand
 
 # fast build rule for target.
-hector_uav_msgs_generate_messages_nodejs/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build.make hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build
-.PHONY : hector_uav_msgs_generate_messages_nodejs/fast
+_hector_uav_msgs_generate_messages_check_deps_ThrustCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_ThrustCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_ThrustCommand/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_eus: hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_LandingActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/rule
 
-.PHONY : geometry_msgs_generate_messages_eus
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionResult
 
 # fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
+_hector_uav_msgs_generate_messages_check_deps_LandingActionResult/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionResult.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingActionResult/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_RC: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RC
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback/fast
+_hector_uav_msgs_generate_messages_check_deps_RC/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RC.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_RC/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
+hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_EnableMotors: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/rule
+std_msgs_generate_messages_nodejs: hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_EnableMotors
+.PHONY : std_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_EnableMotors/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_EnableMotors/fast
+std_msgs_generate_messages_nodejs/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hector_uav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
+hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule:
+	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
+.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
 
 # Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/rule
+_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/rule
 
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseGoal
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand
 
 # fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseGoal/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseGoal.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseGoal/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make hector_uav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseAction
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseAction/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseAction.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseAction/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make hector_uav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback/fast
+_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand/fast:
+	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand.dir/build
+.PHONY : _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand/fast
 
 # Convenience name for target.
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_AttitudeCommand.dir/rule:
@@ -1112,96 +1202,6 @@ _hector_uav_msgs_generate_messages_check_deps_VelocityZCommand/fast:
 	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityZCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_VelocityZCommand.dir/build
 .PHONY : _hector_uav_msgs_generate_messages_check_deps_VelocityZCommand/fast
 
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingResult
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_LandingResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_LandingResult/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_HeadingCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeadingCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_HeadingCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeadingCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeadingCommand/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseActionResult: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionResult
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_PoseActionResult/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_PoseActionResult.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_PoseActionResult/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_Compass: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_Compass
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_Compass/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_Compass.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_Compass/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffAction: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffAction
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_TakeoffAction/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffAction.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_TakeoffAction/fast
-
-# Convenience name for target.
-hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule:
-	cd /home/liu/drone_training/build && $(MAKE) -f CMakeFiles/Makefile2 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
-.PHONY : hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
-
-# Convenience name for target.
-_hector_uav_msgs_generate_messages_check_deps_HeightCommand: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/rule
-
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeightCommand
-
-# fast build rule for target.
-_hector_uav_msgs_generate_messages_check_deps_HeightCommand/fast:
-	cd /home/liu/drone_training/build && $(MAKE) -f hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/build.make hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_HeightCommand.dir/build
-.PHONY : _hector_uav_msgs_generate_messages_check_deps_HeightCommand/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1219,71 +1219,71 @@ help:
 	@echo "... hector_uav_msgs_generate_messages_eus"
 	@echo "... hector_uav_msgs_gencpp"
 	@echo "... hector_uav_msgs_generate_messages_cpp"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingGoal"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_RawRC"
-	@echo "... hector_uav_msgs_gennodejs"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseActionFeedback"
 	@echo "... hector_uav_msgs_generate_messages_lisp"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffResult"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_ThrustCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_ServoCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_RuddersCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingFeedback"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_ControllerState"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingGoal"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingActionFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingAction"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseResult"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_EnableMotors"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseGoal"
+	@echo "... hector_uav_msgs_gennodejs"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseActionFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseActionResult"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseActionGoal"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_RawMagnetic"
+	@echo "... test"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_YawrateCommand"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionGoal"
 	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... test"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_YawrateCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_MotorStatus"
-	@echo "... hector_uav_msgs_generate_messages"
-	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseAction"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... hector_uav_msgs_generate_messages_nodejs"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback"
+	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffGoal"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingActionResult"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_RC"
-	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_ServoCommand"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_RawImu"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseResult"
+	@echo "... rebuild_cache"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffAction"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_Compass"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_HeightCommand"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingResult"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_HeadingCommand"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_MotorPWM"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingAction"
+	@echo "... hector_uav_msgs_generate_messages"
+	@echo "... actionlib_msgs_generate_messages_eus"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_MotorStatus"
 	@echo "... hector_uav_msgs_generate_messages_py"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_MotorCommand"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_PositionXYCommand"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionResult"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_RawMagnetic"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_RawRC"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_ControllerState"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_RuddersCommand"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_Supply"
-	@echo "... hector_uav_msgs_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffFeedback"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_EnableMotors"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseGoal"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseAction"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffActionFeedback"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_ThrustCommand"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingActionResult"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_RC"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _hector_uav_msgs_generate_messages_check_deps_VelocityXYCommand"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_AttitudeCommand"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_Altimeter"
 	@echo "... _hector_uav_msgs_generate_messages_check_deps_VelocityZCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_LandingResult"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_HeadingCommand"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_PoseActionResult"
-	@echo "... rebuild_cache"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_Compass"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_TakeoffAction"
-	@echo "... _hector_uav_msgs_generate_messages_check_deps_HeightCommand"
 .PHONY : help
 
 

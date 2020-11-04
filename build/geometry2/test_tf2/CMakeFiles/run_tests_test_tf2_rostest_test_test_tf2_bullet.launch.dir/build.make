@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_rostest_test_test_tf2_bullet.launch.dir/progress.make
 
 geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_rostest_test_test_tf2_bullet.launch:
-	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/rostest-test_test_tf2_bullet.xml "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/liu/drone_training/src/geometry2/test_tf2 --package=test_tf2 --results-filename test_test_tf2_bullet.xml --results-base-dir \"/home/liu/drone_training/build/test_results\" /home/liu/drone_training/src/geometry2/test_tf2/test/test_tf2_bullet.launch "
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/rostest-test_test_tf2_bullet.xml "/usr/bin/python3 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/liu/drone_training/src/geometry2/test_tf2 --package=test_tf2 --results-filename test_test_tf2_bullet.xml --results-base-dir \"/home/liu/drone_training/build/test_results\" /home/liu/drone_training/src/geometry2/test_tf2/test/test_tf2_bullet.launch "
 
 run_tests_test_tf2_rostest_test_test_tf2_bullet.launch: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_rostest_test_test_tf2_bullet.launch
 run_tests_test_tf2_rostest_test_test_tf2_bullet.launch: geometry2/test_tf2/CMakeFiles/run_tests_test_tf2_rostest_test_test_tf2_bullet.launch.dir/build.make

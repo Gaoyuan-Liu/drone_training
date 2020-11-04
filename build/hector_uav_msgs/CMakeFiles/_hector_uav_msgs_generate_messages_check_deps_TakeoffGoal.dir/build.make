@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffGoal.dir/progress.make
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffGoal:
-	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg 
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg 
 
 _hector_uav_msgs_generate_messages_check_deps_TakeoffGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffGoal
 _hector_uav_msgs_generate_messages_check_deps_TakeoffGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_TakeoffGoal.dir/build.make

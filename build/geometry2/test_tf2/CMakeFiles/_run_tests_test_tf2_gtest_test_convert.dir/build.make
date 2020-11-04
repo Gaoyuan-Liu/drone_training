@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/test_tf2/CMakeFiles/_run_tests_test_tf2_gtest_test_convert.dir/progress.make
 
 geometry2/test_tf2/CMakeFiles/_run_tests_test_tf2_gtest_test_convert:
-	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/gtest-test_convert.xml "/home/liu/drone_training/devel/lib/test_tf2/test_convert --gtest_output=xml:/home/liu/drone_training/build/test_results/test_tf2/gtest-test_convert.xml"
+	cd /home/liu/drone_training/build/geometry2/test_tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/test_tf2/gtest-test_convert.xml "/home/liu/drone_training/devel/lib/test_tf2/test_convert --gtest_output=xml:/home/liu/drone_training/build/test_results/test_tf2/gtest-test_convert.xml"
 
 _run_tests_test_tf2_gtest_test_convert: geometry2/test_tf2/CMakeFiles/_run_tests_test_tf2_gtest_test_convert
 _run_tests_test_tf2_gtest_test_convert: geometry2/test_tf2/CMakeFiles/_run_tests_test_tf2_gtest_test_convert.dir/build.make

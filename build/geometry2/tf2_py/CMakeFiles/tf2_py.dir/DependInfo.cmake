@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/python2.7"
+  "/usr/include/python3.6m"
   "/home/liu/drone_training/devel/include"
   "/home/liu/drone_training/src/geometry2/tf2/include"
   "/home/liu/drone_training/src/geometry2/tf2_msgs/include"

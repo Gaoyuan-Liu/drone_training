@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include geometry2/tf2/CMakeFiles/_run_tests_tf2_gtest_test_cache_unittest.dir/progress.make
 
 geometry2/tf2/CMakeFiles/_run_tests_tf2_gtest_test_cache_unittest:
-	cd /home/liu/drone_training/build/geometry2/tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/tf2/gtest-test_cache_unittest.xml "/home/liu/drone_training/devel/lib/tf2/test_cache_unittest --gtest_output=xml:/home/liu/drone_training/build/test_results/tf2/gtest-test_cache_unittest.xml"
+	cd /home/liu/drone_training/build/geometry2/tf2 && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/liu/drone_training/build/test_results/tf2/gtest-test_cache_unittest.xml "/home/liu/drone_training/devel/lib/tf2/test_cache_unittest --gtest_output=xml:/home/liu/drone_training/build/test_results/tf2/gtest-test_cache_unittest.xml"
 
 _run_tests_tf2_gtest_test_cache_unittest: geometry2/tf2/CMakeFiles/_run_tests_tf2_gtest_test_cache_unittest
 _run_tests_tf2_gtest_test_cache_unittest: geometry2/tf2/CMakeFiles/_run_tests_tf2_gtest_test_cache_unittest.dir/build.make

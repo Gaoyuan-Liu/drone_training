@@ -100,16 +100,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> >
   : TrueType
   { };
@@ -117,6 +107,16 @@ struct IsMessage< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hector_uav_msgs::AttitudeCommand_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

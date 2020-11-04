@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawImu.dir/progress.make
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawImu:
-	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/src/hector_uav_msgs/msg/RawImu.msg std_msgs/Header
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/src/hector_uav_msgs/msg/RawImu.msg std_msgs/Header
 
 _hector_uav_msgs_generate_messages_check_deps_RawImu: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawImu
 _hector_uav_msgs_generate_messages_check_deps_RawImu: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_RawImu.dir/build.make

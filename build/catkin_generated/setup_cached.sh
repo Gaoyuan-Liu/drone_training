@@ -7,8 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export CMAKE_PREFIX_PATH="/home/liu/drone_training/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/liu/drone_training/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/liu/drone_training/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/liu/drone_training/build'
-export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages:/home/liu/drone_training/devel/lib/python3/dist-packages'
-export ROS_PACKAGE_PATH='/home/liu/drone_training/src:/opt/ros/melodic/share'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/liu/drone_training/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/liu/drone_training/src:$ROS_PACKAGE_PATH"
