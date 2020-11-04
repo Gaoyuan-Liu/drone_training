@@ -30,7 +30,7 @@ class QuadCopterEnv(gym.Env):
         # We assume that a ROS node has already been created
         # before initialising the environment
         
-        self.vel_pub = rospy.Publisher('/drone/cmd_vel', Twist, queue_size=5)
+        self.vel_pub = rospy.Publisher('/drone_1/cmd_vel', Twist, queue_size=5)
         # self.takeoff_pub = rospy.Publisher('/drone/takeoff', EmptyTopicMsg, queue_size=0)
         
         # gets training parameters from param server
@@ -50,6 +50,10 @@ class QuadCopterEnv(gym.Env):
         self.reward_range = (-np.inf, np.inf)
 
         self._seed()
+
+        self.goal_pose = [1, 1, 1]
+        self.goal_threshold = 0.05
+        self.goal_reward = 50
 
     # A function to initialize the random generator
     def _seed(self, seed=None):
@@ -83,10 +87,13 @@ class QuadCopterEnv(gym.Env):
 
         # Given the action selected by the learning algorithm,
         # we perform the corresponding movement of the robot
-        
+
         # 1st, we decide which velocity command corresponds
         vel_cmd = Twist()
-        if action == 0: #FORWARD
+        vel_cmd.linear.x = action[0]
+        vel_cmd.linear.y = action[1]
+        vel_cmd.linear.z = action[2]
+        """if action == 0: #FORWARD
             vel_cmd.linear.x = self.speed_value
             vel_cmd.angular.z = 0.0
         elif action == 1: #LEFT
@@ -100,7 +107,9 @@ class QuadCopterEnv(gym.Env):
             vel_cmd.angular.z = 0.0
         elif action == 4: #Down
             vel_cmd.linear.z = -self.speed_value
-            vel_cmd.angular.z = 0.0
+            vel_cmd.angular.z = 0.0"""
+
+        
 
         # Then we send the command to the robot and let it go
         # for running_step seconds
@@ -114,6 +123,7 @@ class QuadCopterEnv(gym.Env):
         reward,done = self.process_data(data_pose, data_imu)
 
         # Promote going forwards instead if turning
+"""
         if action == 0:
             reward += 100
         elif action == 1 or action == 2:
@@ -122,8 +132,9 @@ class QuadCopterEnv(gym.Env):
             reward -= 150
         else:
             reward -= 50
-
-        state = [data_pose.position.x]
+"""
+        state = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
+        self.prev_state = state
         return state, reward, done, {}
 
 
@@ -131,8 +142,8 @@ class QuadCopterEnv(gym.Env):
         data_pose = None
         while data_pose is None:
             try:
-                data_pose_raw = rospy.wait_for_message('/drone/ground_truth_to_tf/pose', PoseStamped, timeout=10)
-                data_pose = data_pose_raw.pose
+                data_pose_raw = rospy.wait_for_message('/drone_1/ground_truth_to_tf/pose', PoseStamped, timeout=10)
+                data_pose = data_pose_raw.pose # Equals to pose_ in rohit-s-murthy's code
             except:
                 rospy.loginfo("Current drone pose not ready yet, retrying for getting robot pose")
 
@@ -189,7 +200,7 @@ class QuadCopterEnv(gym.Env):
         time.sleep(seconds_taking_off)
         rospy.loginfo( "Taking-Off sequence completed")
         
-
+"""
     def improved_distance_reward(self, current_pose):
         current_dist = self.calculate_dist_between_two_Points(current_pose.position, self.desired_pose.position)
         #rospy.loginfo("Calculated Distance = "+str(current_dist))
@@ -204,11 +215,12 @@ class QuadCopterEnv(gym.Env):
             #print "Made Distance bigger= "+str(self.best_dist)
         
         return reward
-        
+"""
+
     def process_data(self, data_position, data_imu):
 
         done = False
-        
+        """
         euler = tf.transformations.euler_from_quaternion([data_imu.orientation.x,data_imu.orientation.y,data_imu.orientation.z,data_imu.orientation.w])
         roll = euler[0]
         pitch = euler[1]
@@ -223,6 +235,46 @@ class QuadCopterEnv(gym.Env):
             done = True
             reward = -200
         else:
-            reward = self.improved_distance_reward(data_position)
+            reward, reached_goal = self.get_reward(data_pose)
+            if reached_goal:
+                print('Reached Goal!')
+                done = True  
+"""
+        reward, reached_goal = self.get_reward(data_pose)
+        if reached_goal:
+            print('Reached Goal!')
+            done = True  
 
         return reward,done
+
+    # Now the reward just related to the current_pose and goal
+    def get_reward(self, data_pose):
+        reward = 0
+        reached_goal = False
+
+        error = self.distance(data_pose)
+        current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
+
+        if error < self.goal_threshold:
+            reward += self.goal_reward
+            reached_goal = True  
+        else:
+            reward += np.linalg.norm(np.subtract(self.prev_state, self.goal_pose)) - np.linalg.norm(np.subtract(current_pose, self.goal_pose))
+        
+        return reward, reched_goal
+
+    # Calculate the distance
+    def distance(self, data_pose):
+        current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
+        
+        err = np.subtract(current_pose, self.goal_pose)
+        w = np.array([1, 1, 4])
+        err = np.multiply(w,err)
+        dist = np.linalg.norm(err)
+        return dist
+
+
+
+
+
+
