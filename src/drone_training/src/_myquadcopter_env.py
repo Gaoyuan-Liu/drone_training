@@ -63,7 +63,7 @@ class QuadCopterEnv(gym.Env):
         
     # Resets the state of the environment and returns an initial observation.
     def reset(self):
-        rospy.loginfo("gethere")
+        
         # 1st: resets the simulation to initial values
         self.gazebo.resetSim()
 
@@ -73,10 +73,10 @@ class QuadCopterEnv(gym.Env):
         # 3rd: resets the robot to initial conditions
         self.check_topic_publishers_connection()
         self.init_desired_pose()
-        #self.takeoff_sequence()
+        self.takeoff_sequence()
 
         # 4th: takes an observation of the initial condition of the robot
-        data_pose = self.take_observation()
+        data_pose, imu_pose = self.take_observation()
         observation = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
         self.prev_state = observation
         
@@ -118,7 +118,7 @@ class QuadCopterEnv(gym.Env):
         self.gazebo.unpauseSim()
         self.vel_pub.publish(vel_cmd)
         time.sleep(self.running_step)
-        data_pose = self.take_observation()
+        data_pose, data_imu = self.take_observation()
         self.gazebo.pauseSim()
 
         # finally we get an evaluation based on what happened in the sim
@@ -140,27 +140,19 @@ class QuadCopterEnv(gym.Env):
             except:
                 rospy.loginfo("Current drone pose not ready yet, retrying for getting robot pose")
 
-        """data_imu = None
+        data_imu = None
         while data_imu is None:
             try:
                 data_imu = rospy.wait_for_message('/drone_1/raw_imu', Imu, timeout=10)
             except:
-                rospy.loginfo("Current drone imu not ready yet, retrying for getting robot imu")"""
+                rospy.loginfo("Current drone imu not ready yet, retrying for getting robot imu")
         
-        return data_pose
-
-    """def calculate_dist_between_two_Points(self,p_init,p_end):
-        a = np.array((p_init.x ,p_init.y, p_init.z))
-        b = np.array((p_end.x ,p_end.y, p_end.z))
-        
-        dist = np.linalg.norm(a-b)
-        
-        return dist"""
+        return data_pose, data_imu
 
 
     def init_desired_pose(self):
         
-        current_init_pose = self.take_observation()
+        current_init_pose, current_init_imu = self.take_observation()
         
         """self.best_dist = self.calculate_dist_between_two_Points(current_init_pose.position, self.desired_pose.position)"""
     
@@ -193,20 +185,6 @@ class QuadCopterEnv(gym.Env):
         time.sleep(seconds_taking_off)
         rospy.loginfo( "Taking-Off sequence completed")
 
-        """def improved_distance_reward(self, current_pose):
-        current_dist = self.calculate_dist_between_two_Points(current_pose.position, self.desired_pose.position)
-        #rospy.loginfo("Calculated Distance = "+str(current_dist))
-        
-        if current_dist < self.best_dist:
-            reward = 100
-            self.best_dist = current_dist
-        elif current_dist == self.best_dist:
-            reward = 0
-        else:
-            reward = -100
-            #print "Made Distance bigger= "+str(self.best_dist)
-        
-        return reward"""
 
     def process_data(self, data_pose):
 
@@ -243,7 +221,7 @@ class QuadCopterEnv(gym.Env):
         reward = 0
         reached_goal = False
 
-        error = self.distance(data_pose)
+        error = self._distance(data_pose)
         current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
 
         if error < self.goal_threshold:
@@ -255,7 +233,7 @@ class QuadCopterEnv(gym.Env):
         return reward, reached_goal
 
     # Calculate the distance
-    def distance(self, data_pose):
+    def _distance(self, data_pose):
         current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
         
         err = np.subtract(current_pose, self.goal_pose)

@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
             # Pick an action based on the current state
 
-            action = [0, 0, 0]
+            action = [0, 0, 0.05]
             
             # Execute the action in the environment and get feedback
             observation, reward, done, info = env.step(action)

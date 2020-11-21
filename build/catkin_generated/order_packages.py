@@ -2,4 +2,4 @@
 source_root_dir = '/home/liu/drone_training/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/opt/ros/melodic'.split(';') if '/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/liu/workspace/devel;/home/liu/mrs_workspace/devel;/opt/ros/melodic'.split(';') if '/home/liu/workspace/devel;/home/liu/mrs_workspace/devel;/opt/ros/melodic' != '' else []

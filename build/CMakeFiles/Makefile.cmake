@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/liu/.local/lib/python3.6/site-packages/catkin_pkg/templates/metapackage.cmake.in"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
@@ -261,7 +262,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/cmake/eigen3/Eigen3Config.cmake"
   "/usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake"
   "/usr/lib/cmake/eigen3/Eigen3Targets.cmake"
-  "/usr/lib/python3/dist-packages/catkin_pkg/templates/metapackage.cmake.in"
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-config-version.cmake"
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-config.cmake"
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-targets-none.cmake"

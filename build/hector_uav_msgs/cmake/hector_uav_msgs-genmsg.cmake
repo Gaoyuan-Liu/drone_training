@@ -124,27 +124,27 @@ add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg" "geometry_msgs/PoseStamped:hector_uav_msgs/PoseGoal:hector_uav_msgs/PoseActionFeedback:hector_uav_msgs/PoseActionGoal:geometry_msgs/Quaternion:geometry_msgs/Point:actionlib_msgs/GoalStatus:hector_uav_msgs/PoseResult:std_msgs/Header:actionlib_msgs/GoalID:hector_uav_msgs/PoseActionResult:hector_uav_msgs/PoseFeedback:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg" "hector_uav_msgs/PoseFeedback:hector_uav_msgs/PoseActionGoal:hector_uav_msgs/PoseActionFeedback:actionlib_msgs/GoalStatus:geometry_msgs/Pose:geometry_msgs/PoseStamped:hector_uav_msgs/PoseActionResult:actionlib_msgs/GoalID:hector_uav_msgs/PoseResult:hector_uav_msgs/PoseGoal:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg" "geometry_msgs/PoseStamped:hector_uav_msgs/PoseGoal:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:hector_uav_msgs/PoseGoal:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg" "hector_uav_msgs/PoseResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:hector_uav_msgs/PoseResult"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg" "geometry_msgs/PoseStamped:actionlib_msgs/GoalID:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:geometry_msgs/Point:hector_uav_msgs/PoseFeedback:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg" "hector_uav_msgs/PoseFeedback:actionlib_msgs/GoalStatus:geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg" NAME_WE)
@@ -154,32 +154,32 @@ add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg" "geometry_msgs/PoseStamped:hector_uav_msgs/LandingActionGoal:hector_uav_msgs/LandingResult:geometry_msgs/Quaternion:hector_uav_msgs/LandingActionFeedback:geometry_msgs/Point:actionlib_msgs/GoalStatus:hector_uav_msgs/LandingActionResult:hector_uav_msgs/LandingFeedback:std_msgs/Header:actionlib_msgs/GoalID:hector_uav_msgs/LandingGoal:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg" "hector_uav_msgs/LandingActionResult:hector_uav_msgs/LandingActionFeedback:actionlib_msgs/GoalStatus:geometry_msgs/Pose:hector_uav_msgs/LandingActionGoal:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:hector_uav_msgs/LandingGoal:hector_uav_msgs/LandingResult:std_msgs/Header:hector_uav_msgs/LandingFeedback:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:actionlib_msgs/GoalID:hector_uav_msgs/LandingGoal:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:hector_uav_msgs/LandingGoal:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg" "hector_uav_msgs/LandingResult:actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:hector_uav_msgs/LandingResult"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:geometry_msgs/Point:hector_uav_msgs/LandingFeedback:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg" "actionlib_msgs/GoalStatus:geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/LandingFeedback:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg" NAME_WE)
@@ -189,27 +189,27 @@ add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg" "hector_uav_msgs/TakeoffActionGoal:geometry_msgs/PoseStamped:hector_uav_msgs/TakeoffActionResult:hector_uav_msgs/TakeoffActionFeedback:hector_uav_msgs/TakeoffGoal:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:geometry_msgs/Point:hector_uav_msgs/TakeoffFeedback:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Pose:hector_uav_msgs/TakeoffResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg" "geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:geometry_msgs/Pose:geometry_msgs/PoseStamped:hector_uav_msgs/TakeoffActionFeedback:actionlib_msgs/GoalID:hector_uav_msgs/TakeoffActionResult:hector_uav_msgs/TakeoffActionGoal:geometry_msgs/Point:std_msgs/Header:hector_uav_msgs/TakeoffFeedback:hector_uav_msgs/TakeoffGoal:hector_uav_msgs/TakeoffResult"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg" "hector_uav_msgs/TakeoffGoal:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg" "std_msgs/Header:actionlib_msgs/GoalID:hector_uav_msgs/TakeoffGoal"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg" "actionlib_msgs/GoalStatus:hector_uav_msgs/TakeoffResult:std_msgs/Header:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:hector_uav_msgs/TakeoffResult"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:geometry_msgs/Point:hector_uav_msgs/TakeoffFeedback:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg" "actionlib_msgs/GoalStatus:geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/TakeoffFeedback:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg" NAME_WE)
@@ -224,7 +224,7 @@ add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg" NAME_WE)
 add_custom_target(_hector_uav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg" "geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hector_uav_msgs" "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg" "geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/liu/drone_training/src/hector_uav_msgs/srv/EnableMotors.srv" NAME_WE)
@@ -367,31 +367,31 @@ _generate_msg_cpp(hector_uav_msgs
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
@@ -403,37 +403,37 @@ _generate_msg_cpp(hector_uav_msgs
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
@@ -445,31 +445,31 @@ _generate_msg_cpp(hector_uav_msgs
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_cpp(hector_uav_msgs
@@ -487,7 +487,7 @@ _generate_msg_cpp(hector_uav_msgs
 _generate_msg_cpp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hector_uav_msgs
 )
 
@@ -736,31 +736,31 @@ _generate_msg_eus(hector_uav_msgs
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
@@ -772,37 +772,37 @@ _generate_msg_eus(hector_uav_msgs
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
@@ -814,31 +814,31 @@ _generate_msg_eus(hector_uav_msgs
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_eus(hector_uav_msgs
@@ -856,7 +856,7 @@ _generate_msg_eus(hector_uav_msgs
 _generate_msg_eus(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hector_uav_msgs
 )
 
@@ -1105,31 +1105,31 @@ _generate_msg_lisp(hector_uav_msgs
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
@@ -1141,37 +1141,37 @@ _generate_msg_lisp(hector_uav_msgs
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
@@ -1183,31 +1183,31 @@ _generate_msg_lisp(hector_uav_msgs
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_lisp(hector_uav_msgs
@@ -1225,7 +1225,7 @@ _generate_msg_lisp(hector_uav_msgs
 _generate_msg_lisp(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hector_uav_msgs
 )
 
@@ -1474,31 +1474,31 @@ _generate_msg_nodejs(hector_uav_msgs
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
@@ -1510,37 +1510,37 @@ _generate_msg_nodejs(hector_uav_msgs
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
@@ -1552,31 +1552,31 @@ _generate_msg_nodejs(hector_uav_msgs
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_nodejs(hector_uav_msgs
@@ -1594,7 +1594,7 @@ _generate_msg_nodejs(hector_uav_msgs
 _generate_msg_nodejs(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hector_uav_msgs
 )
 
@@ -1843,31 +1843,31 @@ _generate_msg_py(hector_uav_msgs
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
@@ -1879,37 +1879,37 @@ _generate_msg_py(hector_uav_msgs
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
@@ -1921,31 +1921,31 @@ _generate_msg_py(hector_uav_msgs
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 _generate_msg_py(hector_uav_msgs
@@ -1963,7 +1963,7 @@ _generate_msg_py(hector_uav_msgs
 _generate_msg_py(hector_uav_msgs
   "/home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hector_uav_msgs
 )
 
