@@ -25,7 +25,7 @@ reg = register(
 
 class QuadCopterEnv(gym.Env):
 
-    def __init__(self):
+    def __init__(self, debug):
         
         # We assume that a ROS node has already been created
         # before initialising the environment
@@ -46,7 +46,9 @@ class QuadCopterEnv(gym.Env):
         # stablishes connection with simulator
         self.gazebo = GazeboConnection()
         
-        self.action_space = spaces.Discrete(5) #Forward,Left,Right,Up,Down
+        #self.action_space = spaces.Discrete(5) #Forward,Left,Right,Up,Down
+        self.num_states = 3
+        self.num_actions = 3
         self.reward_range = (-np.inf, np.inf)
 
         self._seed()
@@ -62,7 +64,7 @@ class QuadCopterEnv(gym.Env):
         return [seed]
         
     # Resets the state of the environment and returns an initial observation.
-    def reset(self):
+    def _reset(self):
         
         # 1st: resets the simulation to initial values
         self.gazebo.resetSim()
