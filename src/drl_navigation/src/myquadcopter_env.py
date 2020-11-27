@@ -53,10 +53,16 @@ class QuadCopterEnv(gym.Env):
 
         self._seed()
 
-        self.goal_pose = [1, 1, 1]
-        self.goal_threshold = 0.05
+        self.goal_pose = [1, 1, 5]
+        self.goal_threshold = 0.5
         self.goal_reward = 50
         self.prev_state = []
+
+        # Spatial limits
+        self.ceiling = 10
+        self.floor = 0.3
+        self.x_limit = 10
+        self.y_limit = 10
 
     # A function to initialize the random generator
     def _seed(self, seed=None):
@@ -64,7 +70,7 @@ class QuadCopterEnv(gym.Env):
         return [seed]
         
     # Resets the state of the environment and returns an initial observation.
-    def _reset(self):
+    def reset(self):
         
         # 1st: resets the simulation to initial values
         self.gazebo.resetSim()
@@ -97,23 +103,6 @@ class QuadCopterEnv(gym.Env):
         vel_cmd.linear.x = action[0]
         vel_cmd.linear.y = action[1]
         vel_cmd.linear.z = action[2]
-        """if action == 0: #FORWARD
-            vel_cmd.linear.x = self.speed_value
-            vel_cmd.angular.z = 0.0
-        elif action == 1: #LEFT
-            vel_cmd.linear.x = 0.05
-            vel_cmd.angular.z = self.speed_value
-        elif action == 2: #RIGHT
-            vel_cmd.linear.x = 0.05
-            vel_cmd.angular.z = -self.speed_value
-        elif action == 3: #Up
-            vel_cmd.linear.z = self.speed_value
-            vel_cmd.angular.z = 0.0
-        elif action == 4: #Down
-            vel_cmd.linear.z = -self.speed_value
-            vel_cmd.angular.z = 0.0"""
-
-        
 
         # Then we send the command to the robot and let it go
         # for running_step seconds
@@ -181,11 +170,26 @@ class QuadCopterEnv(gym.Env):
         # Before taking off be sure that cmd_vel value there is is null to avoid drifts
         self.reset_cmd_vel_commands()
         
-        takeoff_msg = EmptyTopicMsg()
+        '''takeoff_msg = EmptyTopicMsg()
         rospy.loginfo( "Taking-Off Start")
         self.takeoff_pub.publish(takeoff_msg)
         time.sleep(seconds_taking_off)
-        rospy.loginfo( "Taking-Off sequence completed")
+        rospy.loginfo( "Taking-Off sequence completed")'''
+        # rate = rospy.Rate(10)
+        count = 0
+        msg = Twist()
+
+        # while not rospy.is_shutdown():
+        while count < 3:
+            msg.linear.z = 0.5
+            # rospy.loginfo('Lift off')
+
+            self.vel_pub.publish(msg)
+            count = count + 1
+            time.sleep(1.0)
+
+        msg.linear.z = 0.0
+        self.vel_pub.publish(msg)
 
 
     def process_data(self, data_pose):
@@ -216,6 +220,12 @@ class QuadCopterEnv(gym.Env):
             print('Reached Goal!')
             done = True  
 
+        # Check spatial limits: if fly out of the limit, episode finished
+        current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
+        if abs(current_pose[0]) > self.x_limit or abs(current_pose[1]) > self.y_limit or current_pose[2] > self.ceiling or current_pose[2] < self.floor:
+            reward -= 10 
+            done = True
+
         return reward,done
 
     # Now the reward just related to the current_pose and goal
@@ -232,6 +242,9 @@ class QuadCopterEnv(gym.Env):
         else:
             reward += np.linalg.norm(np.subtract(self.prev_state, self.goal_pose)) - np.linalg.norm(np.subtract(current_pose, self.goal_pose))
         
+        if current_pose[2] < 0.3:
+            reward -= 10
+
         return reward, reached_goal
 
     # Calculate the distance

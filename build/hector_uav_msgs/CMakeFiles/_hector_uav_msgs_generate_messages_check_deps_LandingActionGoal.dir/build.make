@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/drone_training/build
 include hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/progress.make
 
 hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal:
-	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg geometry_msgs/Pose:geometry_msgs/PoseStamped:actionlib_msgs/GoalID:hector_uav_msgs/LandingGoal:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point
+	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/Quaternion:geometry_msgs/Point:hector_uav_msgs/LandingGoal
 
 _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal
 _hector_uav_msgs_generate_messages_check_deps_LandingActionGoal: hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_LandingActionGoal.dir/build.make

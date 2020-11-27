@@ -228,19 +228,19 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py: /home/liu/drone
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python from MSG hector_uav_msgs/PoseAction"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
@@ -248,33 +248,33 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py: /home/liu/drone
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python from MSG hector_uav_msgs/PoseActionGoal"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Python from MSG hector_uav_msgs/PoseActionResult"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseFeedback.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Python from MSG hector_uav_msgs/PoseActionFeedback"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
@@ -305,19 +305,19 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py: /home/liu/drone
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Python from MSG hector_uav_msgs/LandingAction"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
@@ -325,33 +325,33 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py: /home/liu/drone
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Python from MSG hector_uav_msgs/LandingActionGoal"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Python from MSG hector_uav_msgs/LandingActionResult"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Python from MSG hector_uav_msgs/LandingActionFeedback"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
@@ -382,49 +382,49 @@ hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_py: /home/liu/drone
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Python from MSG hector_uav_msgs/TakeoffAction"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffAction.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Python from MSG hector_uav_msgs/TakeoffActionGoal"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Python from MSG hector_uav_msgs/TakeoffActionResult"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+/home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/drone_training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Python from MSG hector_uav_msgs/TakeoffActionFeedback"
 	cd /home/liu/drone_training/build/hector_uav_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/liu/drone_training/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg -Ihector_uav_msgs:/home/liu/drone_training/src/hector_uav_msgs/msg -Ihector_uav_msgs:/home/liu/drone_training/devel/share/hector_uav_msgs/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p hector_uav_msgs -o /home/liu/drone_training/devel/lib/python3/dist-packages/hector_uav_msgs/msg
 

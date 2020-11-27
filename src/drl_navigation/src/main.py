@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 import random
 import argparse
 #from tensorflow import keras 
-from tensorflow.keras.models import model_from_json, Model,load_model
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
-from tensorflow.keras.optimizers import Adam
-import tensorflow as tf
+from tensorflow.compat.v1.keras.models import model_from_json, Model,load_model
+from tensorflow.compat.v1.keras.models import Sequential
+from tensorflow.compat.v1.keras.layers import Dense, Dropout, Activation, Flatten
+from tensorflow.compat.v1.keras.optimizers import Adam
+import tensorflow.compat.v1 as tf
 import os
 import json
 import pdb
@@ -20,8 +20,9 @@ import argparse
 from Replay_Buffer import Replay_Buffer
 from Actor_Network import Actor_Network
 from Critic_Network import Critic_Network
-import tensorflow.keras.backend as K
+import tensorflow.compat.v1.keras.backend as K
 import myquadcopter_env as environment
+tf.disable_v2_behavior()
 
 timestr = time.strftime("%Y%m%d-%H%M%S")
 save_path = 'saved_models_' + timestr
@@ -46,8 +47,8 @@ def train_quad(debug=True):
     vision = False
 
     explore = 100000
-    eps_count = 1000
-    max_steps = 100000
+    eps_count = 40 #1000
+    max_steps = 40 #100000
     reward = 0
     done = False
     epsilon = 1
@@ -60,7 +61,15 @@ def train_quad(debug=True):
     episode = []
 
     # Configue tensorflow CPU/GPU
-    # TODO
+    config = tf.ConfigProto(
+        device_count = {'GPU': 0}
+    )
+    sess = tf.Session(config=config)
+    #from tensorflow.keras import backend as K
+    #K.set_session(sess)
+    tf.compat.v1.keras.backend.set_session(
+    sess
+    )
 
     # Define actor, critic and buffer
     actor = Actor_Network(env, sess)
@@ -69,7 +78,7 @@ def train_quad(debug=True):
 
     # Save location
     save_dir = os.path.join(os.getcwd(), save_path)
-    if not os.path.isdir():
+    if not os.path.isdir(save_dir):
         os.makedirs(save_dir)
     os.chdir(save_dir)
 
@@ -83,7 +92,7 @@ def train_quad(debug=True):
     # Episode loop
     for epi in range (eps_count):
         # Receive initial observation state
-        s_t = env._reset() # Initial position info
+        s_t = env.reset() # Initial position info
         s_t = np.asarray(s_t)
         total_reward = 0
         done = False
@@ -91,7 +100,7 @@ def train_quad(debug=True):
 
         # Step loop
         while(done == False):
-            if step > 200: # Episode length is 200 steps
+            if step > max_steps: # Episode length is 200 steps
                 break
 
             step += 1
@@ -116,7 +125,7 @@ def train_quad(debug=True):
             a_t[0][1] = a_t_original[0][1] + noise_t[0][1]
             a_t[0][2] = a_t_original[0][2] + noise_t[0][2]
 
-            s_t1, r_t, done, _ = env._step(a_t[0])
+            s_t1, r_t, done, _ = env.step(a_t[0])
             s_t1 = np.asarray(s_t1)
 
             # Add current data to replay buffer
@@ -178,7 +187,7 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
-    rospy.init_node('quad', anonymous=True, disable_signals=True)
+    rospy.init_node('quad_training', anonymous=True, disable_signals=True)
     debug = 1
     train_quad(debug)
     

@@ -11,5 +11,5 @@
     <rosparam command="load" file="$(find drl_navigation)/config/qlearn_params.yaml" />
 
     <!-- Launch the training system -->
-    <node pkg="drl_navigation" name="gym_train" type="start_training.py" output="screen"/> 
+    <node pkg="drl_navigation" name="gym_train" type="main.py" output="screen"/> 
 </launch>

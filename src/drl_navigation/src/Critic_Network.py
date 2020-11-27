@@ -2,15 +2,15 @@ import gym
 import numpy as np
 import math
 # from keras.initializations import normal, identity
-from tensorflow.keras.models import model_from_json, load_model
+from tensorflow.compat.v1.keras.models import model_from_json, load_model
 # from keras.engine.training import collect_trainable_weights
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten, Input, concatenate, Lambda, Activation
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.optimizers import Adam
-import tensorflow.keras.backend as K
-import tensorflow as tf
-
+from tensorflow.compat.v1.keras.models import Sequential
+from tensorflow.compat.v1.keras.layers import Dense, Flatten, Input, concatenate, Lambda, Activation
+from tensorflow.compat.v1.keras.models import Sequential, Model
+from tensorflow.compat.v1.keras.optimizers import Adam
+#import tensorflow.compat.v1.keras.backend as K
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 class Critic_Network(object):
     def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.001):
@@ -28,7 +28,8 @@ class Critic_Network(object):
         self.buffer_size = 5000
         self.hidden_dim = 32
 
-        K.set_session(sess)
+        #tf.keras.backend.set_session(sess)
+        tf.compat.v1.keras.backend.set_session(sess)
 
         self.model, self.action, self.state = self.create_critic_network()
         self.target_model, self.target_action, self.target_state = self.create_critic_network()
@@ -48,11 +49,12 @@ class Critic_Network(object):
         a1 = Dense(self.hidden_dim, activation = 'linear')(action_input)
 
         # merge
-        h2 = concatenate([h1, a1], mode = 'sum')
+        #h2 = concatenate([h1, a1], mode = 'sum')
+        h2 = concatenate([h1, a1])
         h3 = Dense(self.hidden_dim, activation = 'relu')(h2)
         value_out = Dense(self.act_dim, activation = 'linear')(h3)
 
-        model = Model(input = [state_input, action_input], output = [value_out])
+        model = Model(inputs = [state_input, action_input], outputs = [value_out])
         adam = Adam(self.lr)
         model.compile(loss = 'mse', optimizer = adam)
 

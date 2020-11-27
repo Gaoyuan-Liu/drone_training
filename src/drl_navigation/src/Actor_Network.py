@@ -1,11 +1,11 @@
 import gym
 import numpy as np 
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.layers import Dense, Dropout, Input
-from tensorflow.keras.layers import Add, Multiply
-from tensorflow.keras.optimizers import Adam
-import tensorflow.keras.backend as K
-import tensorflow as tf
+from tensorflow.compat.v1.keras.models import Sequential, Model
+from tensorflow.compat.v1.keras.layers import Dense, Dropout, Input
+from tensorflow.compat.v1.keras.layers import Add, Multiply
+from tensorflow.compat.v1.keras.optimizers import Adam
+import tensorflow.compat.v1.keras.backend as K
+import tensorflow.compat.v1 as tf
 import pdb
 
 from Replay_Buffer import Replay_Buffer
@@ -13,6 +13,7 @@ from Replay_Buffer import Replay_Buffer
 
 class Actor_Network(object):
     def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.0001):
+        tf.disable_v2_behavior()
         self.env = env
         self.sess = sess
 
@@ -29,7 +30,7 @@ class Actor_Network(object):
         self.buffer_size = 5000
         self.hidden_dim = 32
 
-        # replay buuffer
+        # replay buffer
         self.replay_buffer = Replay_Buffer(self.buffer_size)
 
         # create model
@@ -37,15 +38,18 @@ class Actor_Network(object):
         self.target_model, self.target_weights, self.target_state = self.create_actor()
 
         # gradients
+        # tf.disable_eager_execution()
         self.action_gradient = tf.placeholder(tf.float32, [None, self.act_dim])
-        self.params_grad = tf.gradients(self.model.output, self.weights, -self.action_gradient)  # negative for grad ascend
+        self.params_grad = tf.gradients(self.model.outputs, self.weights, -self.action_gradient)  # negative for grad ascend
         grads = zip(self.params_grad, self.weights)
 
         # optimizer & run
+        
         self.optimize = tf.train.AdamOptimizer(self.lr).apply_gradients(grads)
         self.sess.run(tf.initialize_all_variables())
 
         self.writer = tf.summary.FileWriter("./logs", graph=tf.get_default_graph())
+        #self.writer = tf.summary.FileWriter("./logs")
         self.merge_op = tf.summary.merge_all()
 
     def create_actor(self):
@@ -58,7 +62,7 @@ class Actor_Network(object):
 
         out = Dense(self.act_dim, activation='tanh')(h3)
 
-        model = Model(input = obs_in, output = out)
+        model = Model(inputs = obs_in, outputs = out)
 
         # no loss function for actor apparently
         return model, model.trainable_weights, obs_in

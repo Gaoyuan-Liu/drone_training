@@ -381,6 +381,12 @@ console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
 //Value Computed by CMake
+drl_navigation_BINARY_DIR:STATIC=/home/liu/drone_training/build/drl_navigation
+
+//Value Computed by CMake
+drl_navigation_SOURCE_DIR:STATIC=/home/liu/drone_training/src/drl_navigation
+
+//Value Computed by CMake
 drone_training_BINARY_DIR:STATIC=/home/liu/drone_training/build/drone_training
 
 //Value Computed by CMake
@@ -769,7 +775,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
