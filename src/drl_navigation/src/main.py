@@ -46,8 +46,8 @@ def train_quad(debug=True):
 
     vision = False
 
-    explore = 100000
-    eps_count = 40 #1000
+    explore = 1000 #100000
+    eps_count = 500 #1000
     max_steps = 40 #100000
     reward = 0
     done = False
@@ -109,7 +109,7 @@ def train_quad(debug=True):
                 print('step: {}'.format(step))
 
             loss = 0
-            epsilon -= 1.0/explore # It's a constant
+            epsilon -= 1.0/explore # Reduce every step
 
             a_t = np.zeros([1, act_dim])
             noise_t = np.zeros([1, act_dim])
@@ -117,14 +117,20 @@ def train_quad(debug=True):
             # Select action acoording to current policy and exploration noise
             a_t_original = actor.model.predict(s_t.reshape(1, s_t.shape[0]))
 
-            noise_t[0][0] = max(epsilon,0) * ou_func(a_t_original[0][0],  0.0 , 0.60, 0.30)
-            noise_t[0][1] = max(epsilon,0) * ou_func(a_t_original[0][1],  0.0 , 0.60, 0.30)
-            noise_t[0][2] = max(epsilon,0) * ou_func(a_t_original[0][2],  0.0 , 0.60, 0.30)
+            print('epsilon: {}'.format(epsilon))
+
+            #noise_t[0][0] = max(epsilon,0.0) * ou_func(a_t_original[0][0],  0.0 , 0.60, 1)
+            #noise_t[0][1] = max(epsilon,0.0) * ou_func(a_t_original[0][1],  0.0 , 0.60, 1)
+            #noise_t[0][2] = max(epsilon,0.0) * ou_func(a_t_original[0][2],  0.0 , 0.60, 1)
+
+            noise_t[0][0] = max(epsilon,0.0) * ou_func(a_t_original[0][0],  0.0 , 0.1, 0.4)
+            noise_t[0][1] = max(epsilon,0.0) * ou_func(a_t_original[0][1],  0.0 , 0.1, 0.4)
+            noise_t[0][2] = max(epsilon,0.0) * ou_func(a_t_original[0][2],  0.0 , 0.1, 0.4)
 
             a_t[0][0] = a_t_original[0][0] + noise_t[0][0]
             a_t[0][1] = a_t_original[0][1] + noise_t[0][1]
-            a_t[0][2] = a_t_original[0][2] + noise_t[0][2]
-
+            #a_t[0][2] = a_t_original[0][2] + noise_t[0][2]
+            a_t[0][2] = 0
             s_t1, r_t, done, _ = env.step(a_t[0])
             s_t1 = np.asarray(s_t1)
 

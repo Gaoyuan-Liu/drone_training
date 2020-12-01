@@ -13,7 +13,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 class Critic_Network(object):
-    def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.001):
+    def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.1): #learning_rate=0.001
         self.env = env
         self.sess = sess
         self.bs = batch_size

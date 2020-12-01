@@ -12,7 +12,7 @@ from Replay_Buffer import Replay_Buffer
 
 
 class Actor_Network(object):
-    def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.0001):
+    def __init__(self, env, sess, batch_size=32, tau=0.125, learning_rate=0.01): #learning_rate=0.0001
         tf.disable_v2_behavior()
         self.env = env
         self.sess = sess

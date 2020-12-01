@@ -104,15 +104,23 @@ class QuadCopterEnv(gym.Env):
         # we perform the corresponding movement of the robot
 
         # 1st, we decide which velocity command corresponds
-        vel_cmd = Twist()
-        vel_cmd.linear.x = action[0]
-        vel_cmd.linear.y = action[1]
-        vel_cmd.linear.z = action[2]
+
+        
+
+        data_pose, data_imu = self.take_observation()
+        pose_cmd = PoseStamped()
+        pose_cmd.pose.position.x = data_pose.position.x + action[0]
+        pose_cmd.pose.position.y = data_pose.position.y + action[1]
+        pose_cmd.pose.position.z = data_pose.position.z + action[2]
+        pose_cmd.header.frame_id = "drone_1/world"
+
+
+
 
         # Then we send the command to the robot and let it go
         # for running_step seconds
         self.gazebo.unpauseSim()
-        self.vel_pub.publish(vel_cmd)
+        self.pose_pub.publish(pose_cmd)
         time.sleep(self.running_step)
 
         self.cmd_achieved = False
@@ -192,19 +200,8 @@ class QuadCopterEnv(gym.Env):
         time.sleep(seconds_taking_off)
         rospy.loginfo( "Taking-Off sequence completed")'''
         # rate = rospy.Rate(10)
-  
 
         # while not rospy.is_shutdown():
-        """while count < 5:
-            msg.linear.z = 0.5
-            # rospy.loginfo('Lift off')
-
-            self.pose_pub.publish(msg)
-            count = count + 1
-            time.sleep(1.0)
-
-        msg.linear.z = 0.0
-        self.vel_pub.publish(msg)"""
         position_command = PoseStamped()
         position_command.pose.position.x = 0
         position_command.pose.position.y = 0
@@ -217,7 +214,7 @@ class QuadCopterEnv(gym.Env):
             data_pose, imu_pose = self.take_observation()
             self.pose_pub.publish(position_command)            
             #time.sleep(1.0)
-        print("Taking-Off sequence completed")
+        rospy.loginfo( "Taking-Off sequence completed")
 
 
     def process_data(self, data_pose):
@@ -254,7 +251,7 @@ class QuadCopterEnv(gym.Env):
         #    reward -= 50 
         #    done = True
         if abs(current_pose[0]) > self.x_limit or abs(current_pose[1]) > self.y_limit or current_pose[2] > self.ceiling or current_pose[2] < self.floor:
-            reward -= 10
+            reward -= 50
             done = True
         else:
             reward += 1
@@ -271,7 +268,7 @@ class QuadCopterEnv(gym.Env):
         current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
 
         if error < 1: #self.goal_threshold
-            reward += 50 #self.goal_reward
+            reward += 100 #self.goal_reward
             reached_goal = True  
         else:
             if error >= self.best_dist:
@@ -289,7 +286,7 @@ class QuadCopterEnv(gym.Env):
 
     # Calculate the distance
     def _distance(self, data_pose):
-        current_pose = [data_pose.position.x, data_pose.position.y, 5]
+        current_pose = [data_pose.position.x, data_pose.position.y, data_pose.position.z]
         
         err = np.subtract(current_pose, self.goal_pose)
         w = np.array([1, 1, 4])
